@@ -11,26 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120212233644) do
-
-  create_table "courses", :force => true do |t|
-    t.string   "department"
-    t.integer  "number"
-    t.integer  "lecture"
-    t.integer  "section"
-    t.string   "professor"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "events", :force => true do |t|
-    t.string   "name"
-    t.integer  "course_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "events", ["course_id"], :name => "index_events_on_course_id"
+ActiveRecord::Schema.define(:version => 20120123024220) do
 
   create_table "users", :force => true do |t|
     t.string   "email"
