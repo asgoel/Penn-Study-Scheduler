@@ -2,12 +2,13 @@
 
 <table>
   <tr>
-    <th>Department</th>
-    <th>Number</th>
+    <th>Department     </th>
+    <th>Number    </th>
     <th>Section</th>
     <th>Description</th>
+	<th>User</th>
     <th></th>
-    <th></th>
+	<th></th>
     <th></th>
   </tr>
 
@@ -17,6 +18,7 @@
     <td><%= course.number %></td>
     <td><%= course.section %></td>
     <td><%= course.description %></td>
+	<td><%= link_to course.user.first_name + " " + course.user.last_name, course.user %></td>
     <td><%= link_to 'Show', course %></td>
     <td><%= link_to 'Edit', edit_course_path(course) %></td>
     <td><%= link_to 'Destroy', course, confirm: 'Are you sure?', method: :delete %></td>
