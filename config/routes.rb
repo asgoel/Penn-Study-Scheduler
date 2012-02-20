@@ -1,4 +1,9 @@
 PennStudyScheduler::Application.routes.draw do
+
+
+  root :to => 'courses#index'
+  resources :courses
+
   resources :users
 
   # The priority is based upon order of creation:
