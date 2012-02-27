@@ -8,6 +8,10 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
+group :test do
+	gem 'capybara_rails'
+end
+
 group :production do
 	gem 'pg'
 end
@@ -36,4 +40,8 @@ gem 'devise'
 group :test do
   # Pretty printed test output
   gem 'turn', '0.8.2', :require => false
+end
+
+group :test do
+  gem 'database_cleaner'
 end
