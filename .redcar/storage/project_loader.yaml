@@ -1,0 +1,7 @@
+--- 
+open_files: 
+  - app/controllers/application_controller.rb
+  - app/models/user.rb
+  - app/views/devise/registrations/new.html.erb
+  - app/views/devise/registrations/edit.html.erb
+  - db/schema.rb
