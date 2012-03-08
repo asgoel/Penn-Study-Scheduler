@@ -11,6 +11,18 @@
 <body>
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
+<div class="row">
+  <div class = "seven columns">
+  </div>
+  <div class = "five columns">
+<% if user_signed_in? %>
+<%= link_to 'Logout', destroy_user_session_path, method: :delete %>
+<% else %>
+  <%= link_to 'Login', new_user_session_path %>
+  | Not Registered?
+  <%= link_to 'Sign Up Now!', new_user_registration_path %>
+<% end %>
+</div>
 <%= yield %>
 </body>
 </html>
