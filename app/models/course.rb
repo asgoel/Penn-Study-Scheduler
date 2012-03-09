@@ -1,5 +1,6 @@
 class Course < ActiveRecord::Base
-	belongs_to :user
+  has_many :registrations
+  has_many :users, :through => :registrations
 	validates :department, :number, :section, :description, presence: true
 	validates :number, :length => {:maximum => 3}
 end

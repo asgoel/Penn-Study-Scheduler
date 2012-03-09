@@ -3,7 +3,8 @@ class User < ActiveRecord::Base
   # :token_authenticatable, :encryptable, :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable, :confirmable
-  has_many :courses
+  has_many :registrations
+  has_many :courses, :through => :registrations
   validates :first_name, :presence => true
   validates :last_name, :presence => true
   validates :email, :uniqueness => {:case_sensitve => false}

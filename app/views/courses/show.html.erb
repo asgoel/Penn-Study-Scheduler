@@ -20,5 +20,13 @@
   <%= @course.description %>
 </p>
 
+<p>
+  <b>Roster:</b>
+  <% @course.users.each do |user| %>
+  <% name = user.first_name + " " + user.last_name %>
+  <br><%= name %>
+  <% end %> 
+</p>
+
 <%= link_to 'Edit', edit_course_path(@course) %> |
 <%= link_to 'Back', courses_path %>

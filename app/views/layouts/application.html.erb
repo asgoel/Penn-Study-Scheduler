@@ -8,6 +8,7 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
@@ -23,6 +24,8 @@
   <%= link_to 'Sign Up Now!', new_user_registration_path %>
 <% end %>
 </div>
+<div class="row" style="border:1px solid gray; background-color: #E8E8E8">
 <%= yield %>
+</div>
 </body>
 </html>

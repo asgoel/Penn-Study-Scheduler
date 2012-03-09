@@ -2,8 +2,8 @@
 
 <table>
   <tr>
-    <th>Department     </th>
-    <th>Number    </th>
+    <th>Dept.     </th>
+    <th>Num.    </th>
     <th>Section</th>
     <th>Description</th>
     <th></th>
@@ -11,7 +11,7 @@
     <th></th>
   </tr>
 
-<% @courses.each do |course| %>
+<% @courses.sort_by {|course| course.department}.each do |course| %>
   <tr>
     <td><%= course.department %></td>
     <td><%= course.number %></td>

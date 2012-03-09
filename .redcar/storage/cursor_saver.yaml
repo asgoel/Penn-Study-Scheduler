@@ -6,9 +6,6 @@ cursor_positions:
   - :path: config/environments/test.rb
     :cursor_offset: 0
     :timestamp: 2012-02-11 18:13:42 -05:00
-  - :path: app/models/course.rb
-    :cursor_offset: 0
-    :timestamp: 2012-02-17 01:29:59 -05:00
   - :path: Gemfile
     :cursor_offset: 461
     :timestamp: 2012-02-25 18:30:49 -05:00
@@ -18,42 +15,105 @@ cursor_positions:
   - :path: config/application.rb
     :cursor_offset: 0
     :timestamp: 2012-02-19 17:46:08 -05:00
-  - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 368
-    :timestamp: 2012-02-25 18:35:29 -05:00
-  - :path: db/migrate/20120225233906_devise_create_users.rb
-    :cursor_offset: 1342
-    :timestamp: 2012-02-25 18:47:30 -05:00
   - :path: config/environments/production.rb
     :cursor_offset: 2227
     :timestamp: 2012-02-25 19:38:05 -05:00
-  - :path: db/migrate/20120213062944_create_courses.rb
-    :cursor_offset: 0
-    :timestamp: 2012-02-13 01:29:44 -05:00
-  - :path: app/views/courses/index.html.erb
-    :cursor_offset: 139
-    :timestamp: 2012-02-25 19:54:52 -05:00
-  - :path: app/views/courses/_form.html.erb
-    :cursor_offset: 853
-    :timestamp: 2012-02-25 19:54:23 -05:00
-  - :path: app/views/courses/show.html.erb
-    :cursor_offset: 257
-    :timestamp: 2012-02-25 19:53:51 -05:00
-  - :path: app/controllers/application_controller.rb
-    :cursor_offset: 0
-    :timestamp: 2012-02-12 23:33:02 -05:00
-  - :path: app/models/user.rb
-    :cursor_offset: 239
-    :timestamp: 2012-02-25 19:45:56 -05:00
-  - :path: app/views/devise/registrations/new.html.erb
-    :cursor_offset: 317
-    :timestamp: 2012-02-25 19:15:18 -05:00
-    :selection_offset: 150
-    :block_selection_mode: false
-  - :path: app/views/devise/registrations/edit.html.erb
-    :cursor_offset: 384
-    :timestamp: 2012-02-25 19:15:57 -05:00
   - :path: db/schema.rb
     :cursor_offset: 0
-    :timestamp: 2012-02-25 19:06:09 -05:00
+    :timestamp: 2012-02-26 22:08:37 -05:00
+  - :path: app/views/devise/registrations/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-02-26 22:08:37 -05:00
+  - :path: app/views/devise/registrations/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-02-26 22:08:37 -05:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-01-21 19:35:25 -05:00
+  - :path: app/views/home/index.html.erb
+    :cursor_offset: 4
+    :timestamp: 2012-03-08 16:26:45 -05:00
+  - :path: config/routes.rb
+    :cursor_offset: 1459
+    :timestamp: 2012-03-08 16:25:53 -05:00
+  - :path: app/assets/stylesheets/foundation.css
+    :cursor_offset: 0
+    :timestamp: 2012-02-20 04:45:38 -05:00
+  - :path: app/views/courses/show.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-02-26 22:08:37 -05:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 724
+    :timestamp: 2012-03-08 16:47:18 -05:00
+  - :path: db/migrate/20120225233906_devise_create_users.rb
+    :cursor_offset: 0
+    :timestamp: 2012-02-26 22:08:37 -05:00
+  - :path: db/migrate/20120217062212_add_user_id_to_courses.rb
+    :cursor_offset: 0
+    :timestamp: 2012-02-20 00:02:24 -05:00
+  - :path: db/migrate/20120217063324_add_details_to_users.rb
+    :cursor_offset: 0
+    :timestamp: 2012-02-20 00:02:24 -05:00
+  - :path: db/migrate/20120226000550_add_name_to_users.rb
+    :cursor_offset: 0
+    :timestamp: 2012-02-26 22:08:37 -05:00
+  - :path: db/migrate/20120213062944_create_courses.rb
+    :cursor_offset: 0
+    :timestamp: 2012-02-13 01:59:04 -05:00
+  - :path: app/views/registrations/index.html.erb
+    :cursor_offset: 215
+    :timestamp: 2012-03-08 17:42:07 -05:00
+  - :path: db/migrate/20120308223534_create_registrations.rb
+    :cursor_offset: 175
+    :timestamp: 2012-03-08 17:40:57 -05:00
+  - :path: db/migrate/20120308223441_drop_registrations.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-08 17:44:57 -05:00
+    :selection_offset: 94
+    :block_selection_mode: false
+  - :path: db/migrate/20120308224524_drop_registrations.rb
+    :cursor_offset: 94
+    :timestamp: 2012-03-08 17:45:32 -05:00
+  - :path: db/migrate/20120308225023_modify_users.rb
+    :cursor_offset: 111
+    :timestamp: 2012-03-08 17:50:23 -05:00
+  - :path: app/views/courses/new.html.erb
+    :cursor_offset: 84
+    :timestamp: 2012-03-08 16:20:46 -05:00
+  - :path: app/views/courses/_form.html.erb
+    :cursor_offset: 752
+    :timestamp: 2012-03-08 17:23:23 -05:00
+  - :path: app/views/courses/index.html.erb
+    :cursor_offset: 146
+    :timestamp: 2012-03-08 17:29:07 -05:00
+  - :path: db/migrate/20120308224602_create_registrations.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-08 17:46:02 -05:00
+  - :path: app/views/registrations/_form.html.erb
+    :cursor_offset: 510
+    :timestamp: 2012-03-08 17:56:59 -05:00
+  - :path: app/models/registration.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-08 17:46:02 -05:00
+  - :path: app/models/user.rb
+    :cursor_offset: 327
+    :timestamp: 2012-03-08 18:01:47 -05:00
+  - :path: app/models/course.rb
+    :cursor_offset: 33
+    :timestamp: 2012-03-08 18:01:51 -05:00
+  - :path: app/controllers/courses_controller.rb
+    :cursor_offset: 1766
+    :timestamp: 2012-03-08 18:07:42 -05:00
+  - :path: db/migrate/20120308225840_update_tables_for_registrations.rb
+    :cursor_offset: 177
+    :timestamp: 2012-03-08 17:59:34 -05:00
+  - :path: app/controllers/registrations_controller.rb
+    :cursor_offset: 211
+    :timestamp: 2012-03-08 17:58:12 -05:00
+  - :path: db/migrate/20120308230253_drop_columns.rb
+    :cursor_offset: 63
+    :timestamp: 2012-03-08 18:08:48 -05:00
+  - :path: app/views/registrations/show.html.erb
+    :cursor_offset: 152
+    :timestamp: 2012-03-08 18:14:57 -05:00
 files_to_retain: 0
