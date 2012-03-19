@@ -48,12 +48,14 @@ class RegistrationsController < ApplicationController
 
     respond_to do |format|
       if @registration.save
+        Notifications.new_registration(@registration).deliver
         format.html { redirect_to @registration, notice: 'Registration was successfully created.' }
         format.json { render json: @registration, status: :created, location: @registration }
       else
         format.html { render action: "new" }
         format.json { render json: @registration.errors, status: :unprocessable_entity }
       end
+      
     end
   end
 

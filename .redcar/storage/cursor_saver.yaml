@@ -6,9 +6,6 @@ cursor_positions:
   - :path: config/environments/test.rb
     :cursor_offset: 0
     :timestamp: 2012-02-11 18:13:42 -05:00
-  - :path: config/environments/development.rb
-    :cursor_offset: 1081
-    :timestamp: 2012-02-25 18:33:11 -05:00
   - :path: config/application.rb
     :cursor_offset: 0
     :timestamp: 2012-02-19 17:46:08 -05:00
@@ -71,9 +68,6 @@ cursor_positions:
   - :path: db/migrate/20120308225840_update_tables_for_registrations.rb
     :cursor_offset: 177
     :timestamp: 2012-03-08 17:59:34 -05:00
-  - :path: app/controllers/registrations_controller.rb
-    :cursor_offset: 211
-    :timestamp: 2012-03-08 17:58:12 -05:00
   - :path: db/migrate/20120308230253_drop_columns.rb
     :cursor_offset: 63
     :timestamp: 2012-03-08 18:08:48 -05:00
@@ -83,46 +77,63 @@ cursor_positions:
   - :path: app/helpers/registrations_helper.rb
     :cursor_offset: 0
     :timestamp: 2012-03-10 18:55:37 -05:00
-  - :path: app/controllers/application_controller.rb
+  - :path: app/views/courses/index.html.erb
     :cursor_offset: 0
-    :timestamp: 2012-02-29 22:06:27 -05:00
-  - :path: app/models/user.rb
+    :timestamp: 2012-03-18 21:22:02 -04:00
+  - :path: app/controllers/courses_controller.rb
     :cursor_offset: 0
-    :timestamp: 2012-03-10 18:55:37 -05:00
-  - :path: app/views/devise/registrations/new.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-02-25 19:15:18 -05:00
-  - :path: app/views/devise/registrations/edit.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-02-25 19:15:57 -05:00
-  - :path: db/schema.rb
-    :cursor_offset: 0
-    :timestamp: 2012-03-10 18:55:38 -05:00
-  - :path: app/views/registrations/new.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-03-10 18:55:37 -05:00
-  - :path: app/views/registrations/_form.html.erb
-    :cursor_offset: 529
-    :timestamp: 2012-03-14 14:30:16 -04:00
-  - :path: app/views/registrations/index.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-03-10 18:55:37 -05:00
-  - :path: app/models/course.rb
-    :cursor_offset: 306
-    :timestamp: 2012-03-14 14:30:05 -04:00
-  - :path: app/helpers/courses_helper.rb
-    :cursor_offset: 20
-    :timestamp: 2012-03-14 14:30:23 -04:00
-  - :path: Gemfile
-    :cursor_offset: 515
-    :timestamp: 2012-03-14 23:44:41 -04:00
+    :timestamp: 2012-03-18 21:22:02 -04:00
   - :path: app/views/courses/_form.html.erb
     :cursor_offset: 0
-    :timestamp: 2012-03-10 18:55:37 -05:00
-  - :path: app/controllers/courses_controller.rb
-    :cursor_offset: 854
-    :timestamp: 2012-03-15 00:14:14 -04:00
-  - :path: app/views/courses/index.html.erb
-    :cursor_offset: 546
-    :timestamp: 2012-03-15 00:17:36 -04:00
+    :timestamp: 2012-03-08 17:23:23 -05:00
+  - :path: app/helpers/courses_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-02-13 01:59:04 -05:00
+  - :path: app/models/course.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-18 21:22:02 -04:00
+  - :path: app/views/registrations/index.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-03-08 18:24:29 -05:00
+  - :path: app/views/registrations/_form.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-03-18 21:22:02 -04:00
+  - :path: app/views/registrations/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-03-08 17:46:02 -05:00
+  - :path: db/schema.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-18 21:22:02 -04:00
+  - :path: app/views/devise/registrations/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-02-26 22:08:37 -05:00
+  - :path: app/views/devise/registrations/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-02-26 22:08:37 -05:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-01-21 19:35:25 -05:00
+  - :path: app/mailers/notifications.rb
+    :cursor_offset: 367
+    :timestamp: 2012-03-18 21:31:31 -04:00
+  - :path: app/controllers/registrations_controller.rb
+    :cursor_offset: 1160
+    :timestamp: 2012-03-18 21:33:00 -04:00
+  - :path: app/views/notifications/new_calendar.text.erb
+    :cursor_offset: 113
+    :timestamp: 2012-03-18 21:26:16 -04:00
+    :selection_offset: 0
+    :block_selection_mode: false
+  - :path: app/models/user.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-08 18:21:06 -05:00
+  - :path: app/views/notifications/new_registration.html.erb
+    :cursor_offset: 138
+    :timestamp: 2012-03-18 21:36:46 -04:00
+  - :path: Gemfile
+    :cursor_offset: 99
+    :timestamp: 2012-03-18 21:38:18 -04:00
+  - :path: config/environments/development.rb
+    :cursor_offset: 1262
+    :timestamp: 2012-03-18 21:38:40 -04:00
 files_to_retain: 0

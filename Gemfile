@@ -2,6 +2,10 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.2.1'
 
+group :development do
+  gem 'letter_opener'
+end
+
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 group :development, :test do
