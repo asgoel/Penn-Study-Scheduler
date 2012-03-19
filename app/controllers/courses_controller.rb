@@ -40,7 +40,7 @@ class CoursesController < ApplicationController
   # POST /courses
   # POST /courses.json
   def create
-    @course = Course.new(params[:course])
+    @course = Course.new(params[:course], :admin => false)
 
     respond_to do |format|
       if @course.save

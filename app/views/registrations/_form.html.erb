@@ -13,7 +13,7 @@
   
   <div class="field">
     <%= f.label :course %><br />
-    <%= f.collection_select :course_id, Course.all.sort_by {|c| c.description}, :id, :description %>
+    <%= f.collection_select :course_id, Course.all.sort_by {|c| c.description}, :id, :full_name %>
   </div>
   <div class="actions">
     <%= f.submit %>
