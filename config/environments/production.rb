@@ -66,5 +66,5 @@ PennStudyScheduler::Application.configure do
 	:password => ENV['SEND_PASSWORD'],
 	:domain => 'heroku.com'
 	}
-  config.action_mailer.default_url_options = { :host => 'pennstudyscheduler.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'pennstudyscheduler.heroku.com' }
 end
