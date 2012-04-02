@@ -1,10 +1,28 @@
 <br><h1>Penn Study Scheduler</h1>
 
+<script type="text/javascript">
+$(document).ready(function(){
+ 
+        $(".slidingDiv").hide();
+        $(".show_hide").show();
+ 
+    $('.show_hide').click(function(){
+    $(".slidingDiv").slideToggle();
+    });
+ 
+});
+</script>
+
+<button class="show_hide">What is this site?</button>
+<div class="slidingDiv">
+
 <% if user_signed_in? %>
   <p>Welcome back to Penn Study Scheduler. Would you like to create a study 
-  event, or would you like to change your schedule?</p>
+  event, or would you like to <a href="/registrations.html">change your schedule?</a></p>
 
 <% else %>
   <p>Welcome to Penn Study Scheduler. This page allows you to upload your Penn 
     course schedule and invite your friends to study.</p>
 <% end %>
+
+</div>

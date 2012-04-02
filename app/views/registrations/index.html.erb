@@ -15,7 +15,7 @@
     <% title = registration.course.department + " " + registration.course.number.to_s + "-" +  registration.course.section %>
     <td><%= name %></td>
     <td><%= title %></td>
-    <td><%= link_to 'Show', registration %></td>
+    <td><%= link_to 'Show', registration.course %></td>
     <td><%= link_to 'Edit', edit_registration_path(registration) %></td>
     <td><%= link_to 'Destroy', registration, confirm: 'Are you sure?', method: :delete %></td>
   </tr>

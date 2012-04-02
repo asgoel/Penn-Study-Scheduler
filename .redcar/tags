@@ -1,4 +1,4 @@
-1332121253
+1333335902
 AddAdminToUser	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/db/migrate/20120315040347_add_admin_to_user.rb	class AddAdminToUser 
 Course	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/models/course.rb	class Course 
 CoursesController	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	class CoursesController 

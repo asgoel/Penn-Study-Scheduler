@@ -12,18 +12,12 @@ cursor_positions:
   - :path: config/environments/production.rb
     :cursor_offset: 2227
     :timestamp: 2012-02-25 19:38:05 -05:00
-  - :path: app/views/home/index.html.erb
-    :cursor_offset: 4
-    :timestamp: 2012-03-08 16:26:45 -05:00
   - :path: config/routes.rb
     :cursor_offset: 1459
     :timestamp: 2012-03-08 16:25:53 -05:00
   - :path: app/assets/stylesheets/foundation.css
     :cursor_offset: 0
     :timestamp: 2012-02-20 04:45:38 -05:00
-  - :path: app/views/courses/show.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-02-26 22:08:37 -05:00
   - :path: app/views/layouts/application.html.erb
     :cursor_offset: 724
     :timestamp: 2012-03-08 16:47:18 -05:00
@@ -77,15 +71,9 @@ cursor_positions:
   - :path: app/helpers/registrations_helper.rb
     :cursor_offset: 0
     :timestamp: 2012-03-10 18:55:37 -05:00
-  - :path: app/views/courses/index.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-03-18 21:22:02 -04:00
   - :path: app/controllers/courses_controller.rb
     :cursor_offset: 0
     :timestamp: 2012-03-18 21:22:02 -04:00
-  - :path: app/views/courses/_form.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-03-08 17:23:23 -05:00
   - :path: app/helpers/courses_helper.rb
     :cursor_offset: 0
     :timestamp: 2012-02-13 01:59:04 -05:00
@@ -124,16 +112,31 @@ cursor_positions:
     :timestamp: 2012-03-18 21:26:16 -04:00
     :selection_offset: 0
     :block_selection_mode: false
-  - :path: app/models/user.rb
-    :cursor_offset: 0
-    :timestamp: 2012-03-08 18:21:06 -05:00
-  - :path: app/views/notifications/new_registration.html.erb
-    :cursor_offset: 138
-    :timestamp: 2012-03-18 21:36:46 -04:00
   - :path: Gemfile
     :cursor_offset: 99
     :timestamp: 2012-03-18 21:38:18 -04:00
   - :path: config/environments/development.rb
     :cursor_offset: 1262
     :timestamp: 2012-03-18 21:38:40 -04:00
+  - :path: app/views/notifications/new_registration.html.erb
+    :cursor_offset: 64
+    :timestamp: 2012-03-18 21:40:53 -04:00
+  - :path: app/helpers/application_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-01-21 19:35:25 -05:00
+  - :path: app/models/user.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-08 18:21:06 -05:00
+  - :path: app/views/courses/_form.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-03-08 17:23:23 -05:00
+  - :path: app/views/home/index.html.erb
+    :cursor_offset: 34
+    :timestamp: 2012-04-01 23:00:14 -04:00
+  - :path: app/views/courses/index.html.erb
+    :cursor_offset: 595
+    :timestamp: 2012-04-01 23:01:55 -04:00
+  - :path: app/views/courses/show.html.erb
+    :cursor_offset: 478
+    :timestamp: 2012-03-08 18:21:11 -05:00
 files_to_retain: 0
