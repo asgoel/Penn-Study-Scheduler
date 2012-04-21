@@ -12,10 +12,14 @@
   <% end %>
   
   <div class="field">
-    <%= f.label :course %><br />
-    <%= f.collection_select :course_id, Course.all.sort_by {|c| c.description}, :id, :full_name %>
+    <%= f.label :course %>
+    <%= f.collection_select :course_id, Course.all.sort_by {|c| c.full_name}, 
+      :id, :full_name %>
   </div>
   <div class="actions">
     <%= f.submit %>
   </div>
+  
+  <a href="/courses/new">
+    Don't see your course? Create it here!</a>
 <% end %>

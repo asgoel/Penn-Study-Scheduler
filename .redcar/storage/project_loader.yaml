@@ -1,3 +1,3 @@
 --- 
 open_files: 
-  - app/views/notifications/new_registration.html.erb
+  - app/views/registrations/index.html.erb

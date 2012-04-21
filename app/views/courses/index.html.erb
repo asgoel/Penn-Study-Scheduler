@@ -1,29 +1,19 @@
-<h1>Listing courses</h1>
+<h1>All Courses</h1>
 
 <table>
   <tr>
-    <th>Dept.     </th>
-    <th>Num.    </th>
-    <th>Section</th>
+    <th>Course Number</th>
     <th>Description</th>
-    <th></th>
-	<th></th>
     <th></th>
   </tr>
 
-<% @courses.sort_by {|course| course.department}.each do |course| %>
+<% @courses.sort_by {|course| course.abbrev}.each do |course| %>
   <tr>
-    <td><%= course.department %></td>
-    <td><%= course.number %></td>
-    <td><%= course.section %></td>
+    <td><%= course.abbrev %></td>
     <td><%= course.description %></td>
-    <td><%= link_to 'Show', course %></td>
-    <td><%= link_to 'Edit', edit_course_path(course) %></td>
-    <td><%= link_to 'Destroy', course, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to 'View Your Classmates', course %></td>
   </tr>
 <% end %>
 </table>
 
-<br />
-
-<%= link_to 'New Course', new_course_path %>
+<a href="/">Back</a>

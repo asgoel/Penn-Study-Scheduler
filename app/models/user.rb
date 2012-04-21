@@ -10,4 +10,8 @@ class User < ActiveRecord::Base
   validates :email, :uniqueness => {:case_sensitve => false}
   # Setup accessible (or protected) attributes for your model
   attr_accessible :first_name, :last_name, :email, :password, :password_confirmation, :remember_me
+  
+  def full_name
+    "#{first_name} #{last_name}"
+  end
 end

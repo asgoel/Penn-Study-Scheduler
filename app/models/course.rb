@@ -7,4 +7,8 @@ class Course < ActiveRecord::Base
   def full_name
     "#{department} #{number}-#{section}: #{description}"
   end
+  
+  def abbrev
+    "#{department} #{number}-#{section}"
+  end
 end

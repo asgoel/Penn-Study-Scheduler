@@ -1,25 +1,28 @@
-1333335902
+1334977791
 AddAdminToUser	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/db/migrate/20120315040347_add_admin_to_user.rb	class AddAdminToUser 
 Course	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/models/course.rb	class Course 
 CoursesController	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	class CoursesController 
 Notifications	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/mailers/notifications.rb	class Notifications 
 NotificationsTest	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/test/functional/notifications_test.rb	class NotificationsTest 
 RegistrationsController	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	class RegistrationsController 
+User	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/models/user.rb	class User 
+abbrev	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/models/course.rb	  def abbrev
 change	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/db/migrate/20120315040347_add_admin_to_user.rb	  def change
-create	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def create
 create	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	  def create
-destroy	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def destroy
+create	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def create
 destroy	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	  def destroy
-edit	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def edit
+destroy	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def destroy
 edit	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	  def edit
+edit	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def edit
 full_name	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/models/course.rb	  def full_name
-index	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def index
+full_name	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/models/user.rb	  def full_name
 index	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	  def index
-new	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def new
+index	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def index
 new	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	  def new
+new	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def new
 new_registration	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/mailers/notifications.rb	  def new_registration(registration)
 registrations	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	  def registrations
-show	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def show
 show	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	  def show
-update	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def update
+show	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def show
 update	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	  def update
+update	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def update

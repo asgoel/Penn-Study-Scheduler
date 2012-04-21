@@ -10,11 +10,9 @@
 </head>
 
 <body>
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
+  <p></p>
 <div class="row">
-  <div class = "seven columns">
-  </div>
+  <div class = "seven columns"></div>
   <div class = "five columns">
 <% if user_signed_in? %>
 <%= link_to 'Logout', destroy_user_session_path, method: :delete %>
@@ -25,6 +23,8 @@
 <% end %>
 </div>
 <div class="row" style="border:1px solid gray; background-color: #E8E8E8">
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
 <%= yield %>
 </div>
 </body>
