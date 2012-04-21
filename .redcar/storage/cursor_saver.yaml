@@ -12,9 +12,6 @@ cursor_positions:
   - :path: config/environments/production.rb
     :cursor_offset: 2227
     :timestamp: 2012-02-25 19:38:05 -05:00
-  - :path: config/routes.rb
-    :cursor_offset: 1459
-    :timestamp: 2012-03-08 16:25:53 -05:00
   - :path: app/assets/stylesheets/foundation.css
     :cursor_offset: 0
     :timestamp: 2012-02-20 04:45:38 -05:00
@@ -88,21 +85,12 @@ cursor_positions:
   - :path: app/helpers/application_helper.rb
     :cursor_offset: 0
     :timestamp: 2012-01-21 19:35:25 -05:00
-  - :path: app/views/courses/index.html.erb
-    :cursor_offset: 595
-    :timestamp: 2012-04-01 23:01:55 -04:00
   - :path: app/models/registration.rb
     :cursor_offset: 0
     :timestamp: 2012-03-08 17:46:02 -05:00
-  - :path: app/views/devise/registrations/new.html.erb
-    :cursor_offset: 469
-    :timestamp: 2012-04-20 22:23:46 -04:00
   - :path: app/views/registrations/new.html.erb
     :cursor_offset: 25
     :timestamp: 2012-04-20 22:35:28 -04:00
-  - :path: app/models/course.rb
-    :cursor_offset: 322
-    :timestamp: 2012-04-20 22:50:22 -04:00
   - :path: app/views/home/index.html.erb
     :cursor_offset: 500
     :timestamp: 2012-04-20 22:57:31 -04:00
@@ -118,18 +106,9 @@ cursor_positions:
   - :path: app/views/layouts/application.html.erb
     :cursor_offset: 648
     :timestamp: 2012-04-20 23:15:31 -04:00
-  - :path: app/views/courses/show.html.erb
-    :cursor_offset: 9
-    :timestamp: 2012-04-20 23:14:44 -04:00
-  - :path: app/controllers/registrations_controller.rb
-    :cursor_offset: 1160
-    :timestamp: 2012-03-18 21:33:00 -04:00
   - :path: app/controllers/devise_controller.rb
     :cursor_offset: 77
     :timestamp: 2012-04-20 23:53:11 -04:00
-  - :path: app/views/courses/_form.html.erb
-    :cursor_offset: 884
-    :timestamp: 2012-04-20 23:19:59 -04:00
   - :path: app/controllers/courses_controller.rb
     :cursor_offset: 959
     :timestamp: 2012-04-20 22:42:46 -04:00
@@ -150,4 +129,25 @@ cursor_positions:
   - :path: app/controllers/application_controller.rb
     :cursor_offset: 75
     :timestamp: 2012-04-21 00:15:40 -04:00
+  - :path: app/views/devise/registrations/new.html.erb
+    :cursor_offset: 81
+    :timestamp: 2012-04-21 00:10:14 -04:00
+  - :path: config/routes.rb
+    :cursor_offset: 67
+    :timestamp: 2012-04-21 00:17:21 -04:00
+  - :path: app/views/courses/index.html.erb
+    :cursor_offset: 364
+    :timestamp: 2012-04-20 22:54:42 -04:00
+  - :path: app/views/courses/show.html.erb
+    :cursor_offset: 9
+    :timestamp: 2012-04-20 23:14:44 -04:00
+  - :path: app/views/courses/_form.html.erb
+    :cursor_offset: 812
+    :timestamp: 2012-04-21 00:30:06 -04:00
+  - :path: app/controllers/registrations_controller.rb
+    :cursor_offset: 1160
+    :timestamp: 2012-03-18 21:33:00 -04:00
+  - :path: app/models/course.rb
+    :cursor_offset: 324
+    :timestamp: 2012-04-21 00:34:49 -04:00
 files_to_retain: 0

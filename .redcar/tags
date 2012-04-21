@@ -1,4 +1,4 @@
-1334981841
+1334983281
 AddAdminToUser	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/db/migrate/20120315040347_add_admin_to_user.rb	class AddAdminToUser 
 ApplicationController	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/application_controller.rb	class ApplicationController 
 Course	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/models/course.rb	class Course 
@@ -6,10 +6,8 @@ CoursesController	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/a
 Notifications	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/mailers/notifications.rb	class Notifications 
 NotificationsTest	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/test/functional/notifications_test.rb	class NotificationsTest 
 RegistrationsController	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	class RegistrationsController 
-RegistrationsController	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/devise/registrations_controller.rb	class Users::RegistrationsController 
 User	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/models/user.rb	class User 
 abbrev	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/models/course.rb	  def abbrev
-after_sign_up_path_for	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/devise/registrations_controller.rb	      def after_sign_up_path_for(resource)
 change	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/db/migrate/20120315040347_add_admin_to_user.rb	  def change
 create	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	  def create
 create	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def create
@@ -17,8 +15,8 @@ destroy	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/control
 destroy	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def destroy
 edit	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	  def edit
 edit	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def edit
-full_name	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/models/course.rb	  def full_name
 full_name	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/models/user.rb	  def full_name
+full_name	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/models/course.rb	  def full_name
 index	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	  def index
 index	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def index
 new	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	  def new

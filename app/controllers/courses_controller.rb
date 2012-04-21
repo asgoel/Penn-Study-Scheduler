@@ -41,11 +41,14 @@ class CoursesController < ApplicationController
   # POST /courses.json
   def create
     @course = Course.new(params[:course], :admin => false)
+    @registration = Registration.new({:user => current_user, 
+      :course => nil})
 
     respond_to do |format|
-      if @course.save
-        format.html { redirect_to "/registrations/new", notice: 'Course was successfully created.' }
-        format.json { render json: "/registrations/new", status: :created, location: @course }
+      if @course.save && @registration.save
+        @registration.update_attributes(:course => @course)
+        format.html { redirect_to "/registrations", notice: 'Course was successfully created.' }
+        format.json { render json: "/registrations", status: :created, location: @course }
       else
         format.html { render action: "new" }
         format.json { render json: @course.errors, status: :unprocessable_entity }
