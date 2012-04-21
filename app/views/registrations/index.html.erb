@@ -9,9 +9,8 @@
   </tr>
 
 <% @registrations.sort_by {|r| r.course.full_name }.each do |registration| %>
-  <tr>
-    <% title = registration.course.department + " " + registration.course.number.to_s + "-" +  registration.course.section %>
-    <td><%= title %></td>
+<tr>
+    <td><%= registration.course.full_name %></td>
     <td><%= link_to 'Show', registration.course %></td>
     <td><%= link_to 'Edit', edit_registration_path(registration) %></td>
     <td><%= link_to 'Destroy', registration, confirm: 'Are you sure?', method: :delete %></td>

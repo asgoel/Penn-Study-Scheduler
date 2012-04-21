@@ -59,9 +59,6 @@ cursor_positions:
   - :path: db/migrate/20120308230253_drop_columns.rb
     :cursor_offset: 63
     :timestamp: 2012-03-08 18:08:48 -05:00
-  - :path: app/views/registrations/show.html.erb
-    :cursor_offset: 152
-    :timestamp: 2012-03-08 18:14:57 -05:00
   - :path: app/helpers/registrations_helper.rb
     :cursor_offset: 0
     :timestamp: 2012-03-10 18:55:37 -05:00
@@ -100,9 +97,6 @@ cursor_positions:
   - :path: app/views/courses/index.html.erb
     :cursor_offset: 595
     :timestamp: 2012-04-01 23:01:55 -04:00
-  - :path: app/views/courses/show.html.erb
-    :cursor_offset: 478
-    :timestamp: 2012-03-08 18:21:11 -05:00
   - :path: app/views/devise/registrations/edit.html.erb
     :cursor_offset: 0
     :timestamp: 2012-02-26 22:08:37 -05:00
@@ -121,17 +115,9 @@ cursor_positions:
   - :path: app/views/registrations/_form.html.erb
     :cursor_offset: 621
     :timestamp: 2012-04-20 22:42:06 -04:00
-  - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 768
-    :timestamp: 2012-04-20 22:46:41 -04:00
-    :selection_offset: 730
-    :block_selection_mode: false
   - :path: app/controllers/courses_controller.rb
     :cursor_offset: 959
     :timestamp: 2012-04-20 22:42:46 -04:00
-  - :path: app/views/registrations/index.html.erb
-    :cursor_offset: 813
-    :timestamp: 2012-04-20 22:57:46 -04:00
   - :path: app/views/courses/_form.html.erb
     :cursor_offset: 743
     :timestamp: 2012-04-20 22:44:43 -04:00
@@ -144,4 +130,18 @@ cursor_positions:
   - :path: app/views/home/index.html.erb
     :cursor_offset: 500
     :timestamp: 2012-04-20 22:57:31 -04:00
+  - :path: app/views/registrations/index.html.erb
+    :cursor_offset: 116
+    :timestamp: 2012-04-20 23:06:29 -04:00
+  - :path: app/views/courses/show.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-04-20 22:58:17 -04:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 768
+    :timestamp: 2012-04-20 22:46:41 -04:00
+    :selection_offset: 730
+    :block_selection_mode: false
+  - :path: app/views/registrations/show.html.erb
+    :cursor_offset: 120
+    :timestamp: 2012-04-20 22:59:17 -04:00
 files_to_retain: 0
