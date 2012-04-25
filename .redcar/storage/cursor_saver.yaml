@@ -56,12 +56,6 @@ cursor_positions:
   - :path: db/migrate/20120308230253_drop_columns.rb
     :cursor_offset: 63
     :timestamp: 2012-03-08 18:08:48 -05:00
-  - :path: app/helpers/registrations_helper.rb
-    :cursor_offset: 0
-    :timestamp: 2012-03-10 18:55:37 -05:00
-  - :path: app/helpers/courses_helper.rb
-    :cursor_offset: 0
-    :timestamp: 2012-02-13 01:59:04 -05:00
   - :path: db/schema.rb
     :cursor_offset: 0
     :timestamp: 2012-03-18 21:22:02 -04:00
@@ -73,9 +67,6 @@ cursor_positions:
     :timestamp: 2012-03-18 21:26:16 -04:00
     :selection_offset: 0
     :block_selection_mode: false
-  - :path: Gemfile
-    :cursor_offset: 99
-    :timestamp: 2012-03-18 21:38:18 -04:00
   - :path: config/environments/development.rb
     :cursor_offset: 1262
     :timestamp: 2012-03-18 21:38:40 -04:00
@@ -100,6 +91,12 @@ cursor_positions:
   - :path: app/views/registrations/_form.html.erb
     :cursor_offset: 713
     :timestamp: 2012-04-20 23:19:35 -04:00
+<<<<<<< HEAD
+=======
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 648
+    :timestamp: 2012-04-20 23:15:31 -04:00
+>>>>>>> 6561861c44d9a974bc12f074dd03239b66fb0a66
   - :path: app/controllers/devise_controller.rb
     :cursor_offset: 77
     :timestamp: 2012-04-20 23:53:11 -04:00
@@ -129,15 +126,22 @@ cursor_positions:
   - :path: app/views/courses/index.html.erb
     :cursor_offset: 364
     :timestamp: 2012-04-20 22:54:42 -04:00
+<<<<<<< HEAD
   - :path: app/views/courses/show.html.erb
     :cursor_offset: 9
     :timestamp: 2012-04-20 23:14:44 -04:00
+=======
+  - :path: app/views/courses/_form.html.erb
+    :cursor_offset: 812
+    :timestamp: 2012-04-21 00:30:06 -04:00
+>>>>>>> 6561861c44d9a974bc12f074dd03239b66fb0a66
   - :path: app/controllers/registrations_controller.rb
     :cursor_offset: 1160
     :timestamp: 2012-03-18 21:33:00 -04:00
   - :path: app/models/course.rb
     :cursor_offset: 324
     :timestamp: 2012-04-21 00:34:49 -04:00
+<<<<<<< HEAD
   - :path: app/views/layouts/application.html.erb
     :cursor_offset: 796
     :timestamp: 2012-04-21 15:37:24 -04:00
@@ -150,4 +154,27 @@ cursor_positions:
   - :path: app/views/courses/_form.html.erb
     :cursor_offset: 828
     :timestamp: 2012-04-21 00:33:40 -04:00
+=======
+  - :path: app/views/registrations/index.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-04-24 13:47:56 -04:00
+  - :path: Gemfile
+    :cursor_offset: 591
+    :timestamp: 2012-04-24 13:54:13 -04:00
+  - :path: app/views/courses/show.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-04-24 13:47:55 -04:00
+  - :path: app/controllers/home_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-10 18:55:37 -05:00
+  - :path: app/controllers/my_devise.rb
+    :cursor_offset: 132
+    :timestamp: 2012-04-25 00:45:42 -04:00
+  - :path: app/helpers/courses_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-14 14:30:23 -04:00
+  - :path: app/helpers/registrations_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-10 18:55:37 -05:00
+>>>>>>> 6561861c44d9a974bc12f074dd03239b66fb0a66
 files_to_retain: 0

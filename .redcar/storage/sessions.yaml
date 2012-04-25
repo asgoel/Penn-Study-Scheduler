@@ -1,7 +1,14 @@
 --- 
 bounds: 
+<<<<<<< HEAD
   x: 259
   y: 117
   width: 927
   height: 615
+=======
+  x: 0
+  y: 22
+  width: 1280
+  height: 774
+>>>>>>> 6561861c44d9a974bc12f074dd03239b66fb0a66
 tree_width: 205

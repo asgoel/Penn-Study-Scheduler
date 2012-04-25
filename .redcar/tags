@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1335056044
 AddAdminToUser	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/db/migrate/20120315040347_add_admin_to_user.rb	class AddAdminToUser 
 ApplicationController	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/application_controller.rb	class ApplicationController 
@@ -27,3 +28,24 @@ show	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controller
 show	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def show
 update	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/registrations_controller.rb	  def update
 update	/Users/Max/Documents/Classes/CIS 196/Code/PennStudyScheduler/app/controllers/courses_controller.rb	  def update
+=======
+1335337735
+AddAttachmentScheduleToUsers	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/db/migrate/20120425002523_add_attachment_schedule_to_users.rb	class AddAttachmentScheduleToUsers 
+Course	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/course.rb	class Course 
+CoursesController	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/courses_controller.rb	class CoursesController 
+RegistrationsController	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/my_devise.rb	class MyDevise::RegistrationsController 
+User	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/user.rb	class User 
+abbrev	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/course.rb	  def abbrev
+create	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/courses_controller.rb	  def create
+destroy	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/courses_controller.rb	  def destroy
+down	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/db/migrate/20120425002523_add_attachment_schedule_to_users.rb	  def self.down
+edit	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/courses_controller.rb	  def edit
+full_name	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/course.rb	  def full_name
+full_name	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/user.rb	  def full_name
+index	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/courses_controller.rb	  def index
+new	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/courses_controller.rb	  def new
+show	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/courses_controller.rb	  def show
+up	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/db/migrate/20120425002523_add_attachment_schedule_to_users.rb	  def self.up
+update	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/courses_controller.rb	  def update
+update	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/my_devise.rb	  def update
+>>>>>>> 6561861c44d9a974bc12f074dd03239b66fb0a66

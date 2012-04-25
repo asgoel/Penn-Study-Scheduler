@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120315040347) do
+ActiveRecord::Schema.define(:version => 20120425002523) do
 
   create_table "courses", :force => true do |t|
     t.string    "department"
@@ -59,6 +59,10 @@ ActiveRecord::Schema.define(:version => 20120315040347) do
     t.string    "last_name"
     t.text      "registrations"
     t.boolean   "admin"
+    t.string    "schedule_file_name"
+    t.string    "schedule_content_type"
+    t.integer   "schedule_file_size"
+    t.datetime  "schedule_updated_at"
   end
 
   add_index "users", ["confirmation_token"], :name => "index_users_on_confirmation_token", :unique => true
