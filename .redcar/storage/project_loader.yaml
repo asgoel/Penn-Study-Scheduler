@@ -1,3 +1,4 @@
 --- 
 open_files: 
-  - app/views/registrations/index.html.erb
+  - app/controllers/courses_controller.rb
+  - app/views/courses/_form.html.erb
