@@ -1,0 +1,288 @@
+BEGIN:VCALENDAR
+PRODID:1335331424573
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120911T100000
+DTEND:20120911T113000
+SUMMARY:CIS 190001
+DESCRIPTION:This course will provide an introduction to programming in C+
+ + and is intended for students who already have some exposure to program
+ ming in another language such as Java\, C++ provides the programmer with
+  a greater level of control over machine resources and are commonly used
+  in situations where low level access or performance are important. This
+  course will illuminate the issues associated with programming at this l
+ evel and will cover issues such as explicit memory management\, pointers
+ \, the compilation process and debugging. The course will involve severa
+ l programming projects which will provide students with the experience t
+ hey need to program effectively in these languages. This course assumes 
+ programming experience equivalent to CIS 110\, CIS 120 or ESE 112.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20121207;BYDAY=TU
+UID:20120425T052344Z-1335331424575@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120910T150000
+DTEND:20120910T163000
+SUMMARY:CIS 240001
+DESCRIPTION:You know how to program\, but do you know how computers reall
+ y work? How do millions of transistors come together to form a complete 
+ computing system? This bottom-up course begins with transistors and simp
+ le computer hardware structures\, continues with low-level programming u
+ sing primative machine instructions\, and finishes with an introduction 
+ to all aspects of computer systems architecture and serves as the founda
+ tion for subsequent computer systems courses\, such as Digital Systems O
+ rganization and Design (CIS 371)\, Computer Operating Systems (CIS 380)\
+ , and Compilers and Interpreters (CIS 341). The course will consider the
+  SPARC architecture\, boolean logic\, number systems\,and computer arith
+ metic\; macro assembly language programming and subroutine linkages\; th
+ e operating system interface and input/output\; understanding the output
+  of the C compiler\; the use of the C programming language to generate s
+ pecific assembly language instructions.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20121207;BYDAY=MO
+UID:20120425T052345Z-1335331424581@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120905T150000
+DTEND:20120905T163000
+SUMMARY:CIS 240001
+DESCRIPTION:You know how to program\, but do you know how computers reall
+ y work? How do millions of transistors come together to form a complete 
+ computing system? This bottom-up course begins with transistors and simp
+ le computer hardware structures\, continues with low-level programming u
+ sing primative machine instructions\, and finishes with an introduction 
+ to all aspects of computer systems architecture and serves as the founda
+ tion for subsequent computer systems courses\, such as Digital Systems O
+ rganization and Design (CIS 371)\, Computer Operating Systems (CIS 380)\
+ , and Compilers and Interpreters (CIS 341). The course will consider the
+  SPARC architecture\, boolean logic\, number systems\,and computer arith
+ metic\; macro assembly language programming and subroutine linkages\; th
+ e operating system interface and input/output\; understanding the output
+  of the C compiler\; the use of the C programming language to generate s
+ pecific assembly language instructions.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=WE;INTERVAL=1;UNTIL=20121207;BYDAY=WE
+UID:20120425T052346Z-1335331424585@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120911T133000
+DTEND:20120911T150000
+SUMMARY:CIS 261001
+DESCRIPTION:This course tightly integrates the theory and applications of
+  discrete probability\, discrete stochastic processes\, and discrete sta
+ tistical inference in the study of computer science. The course will int
+ roduce the Minimum Description Length Paradigm to unite basic ideas abou
+ t randomness\, inference and computation. Students will be expected to u
+ se the Maple programming environment in homework exercises which will in
+ clude numerical and symbolic computations\, simulations\, and graphical 
+ displays.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20121207;BYDAY=TU
+UID:20120425T052347Z-1335331424590@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120906T133000
+DTEND:20120906T150000
+SUMMARY:CIS 261001
+DESCRIPTION:This course tightly integrates the theory and applications of
+  discrete probability\, discrete stochastic processes\, and discrete sta
+ tistical inference in the study of computer science. The course will int
+ roduce the Minimum Description Length Paradigm to unite basic ideas abou
+ t randomness\, inference and computation. Students will be expected to u
+ se the Maple programming environment in homework exercises which will in
+ clude numerical and symbolic computations\, simulations\, and graphical 
+ displays.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20121207;BYDAY=TH
+UID:20120425T052348Z-1335331424595@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120907T140000
+DTEND:20120907T150000
+SUMMARY:CIS 261201
+DESCRIPTION:This course tightly integrates the theory and applications of
+  discrete probability\, discrete stochastic processes\, and discrete sta
+ tistical inference in the study of computer science. The course will int
+ roduce the Minimum Description Length Paradigm to unite basic ideas abou
+ t randomness\, inference and computation. Students will be expected to u
+ se the Maple programming environment in homework exercises which will in
+ clude numerical and symbolic computations\, simulations\, and graphical 
+ displays.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=FR;INTERVAL=1;UNTIL=20121207;BYDAY=FR
+UID:20120425T052349Z-1335331424599@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120911T120000
+DTEND:20120911T133000
+SUMMARY:CIS 262001
+DESCRIPTION:This course explores questions fundamental to computer scienc
+ e such as which problems cannot be solved by computers\, can we formaliz
+ e computing as a mathematical concept without relying upon the specifics
+  of programming languages and computing platforms\, and which problems c
+ an be solved efficiently. The topics include finite automata and regular
+  languages\, context-free grammars and pushdown automata\, Turing machin
+ es and undecidability\, tractability and NP-completeness. The course emp
+ hasizes rigorous mathematical reasoning as well as connections to practi
+ cal computing problems such as test processing\, parsing\, XML query lan
+ guages\, and program verification.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20121207;BYDAY=TU
+UID:20120425T052350Z-1335331424604@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120906T120000
+DTEND:20120906T133000
+SUMMARY:CIS 262001
+DESCRIPTION:This course explores questions fundamental to computer scienc
+ e such as which problems cannot be solved by computers\, can we formaliz
+ e computing as a mathematical concept without relying upon the specifics
+  of programming languages and computing platforms\, and which problems c
+ an be solved efficiently. The topics include finite automata and regular
+  languages\, context-free grammars and pushdown automata\, Turing machin
+ es and undecidability\, tractability and NP-completeness. The course emp
+ hasizes rigorous mathematical reasoning as well as connections to practi
+ cal computing problems such as test processing\, parsing\, XML query lan
+ guages\, and program verification.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20121207;BYDAY=TH
+UID:20120425T052351Z-1335331424608@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120910T163000
+DTEND:20120910T173000
+SUMMARY:CIS 262201
+DESCRIPTION:This course explores questions fundamental to computer scienc
+ e such as which problems cannot be solved by computers\, can we formaliz
+ e computing as a mathematical concept without relying upon the specifics
+  of programming languages and computing platforms\, and which problems c
+ an be solved efficiently. The topics include finite automata and regular
+  languages\, context-free grammars and pushdown automata\, Turing machin
+ es and undecidability\, tractability and NP-completeness. The course emp
+ hasizes rigorous mathematical reasoning as well as connections to practi
+ cal computing problems such as test processing\, parsing\, XML query lan
+ guages\, and program verification.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20121207;BYDAY=MO
+UID:20120425T052352Z-1335331424613@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120910T120000
+DTEND:20120910T133000
+SUMMARY:CIS 552001
+DESCRIPTION:The goals of this course are twofold: (1) to take good progra
+ mmers and turn them into excellent ones\, and (2) to introduce them to a
+  range of modern software engineering practices\, in particular those em
+ bodied in advanced functional programming languages.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20121207;BYDAY=MO
+UID:20120425T052353Z-1335331424617@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120905T120000
+DTEND:20120905T133000
+SUMMARY:CIS 552001
+DESCRIPTION:The goals of this course are twofold: (1) to take good progra
+ mmers and turn them into excellent ones\, and (2) to introduce them to a
+  range of modern software engineering practices\, in particular those em
+ bodied in advanced functional programming languages.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=WE;INTERVAL=1;UNTIL=20121207;BYDAY=WE
+UID:20120425T052354Z-1335331424622@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120911T150000
+DTEND:20120911T163000
+SUMMARY:ESE 400401
+DESCRIPTION:This course investigates methods of economic analysis for dec
+ ision making among alternative courses of action in engineering applicat
+ ions. Topics include: cost-driven design economics\, break-even anlaysis
+ \, money-time relationships\, rates of return\, cost estimation\, deprec
+ iation and taxes\, foreign exchange rates\, life cycle analysis\, benefi
+ t-cost ratios\, risk analysis\, capital financing and allocation\, and f
+ inancial statement analysis. Case studies apply these topics to actual e
+ ngineering problems.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20121207;BYDAY=TU
+UID:20120425T052355Z-1335331424626@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120906T150000
+DTEND:20120906T163000
+SUMMARY:ESE 400401
+DESCRIPTION:This course investigates methods of economic analysis for dec
+ ision making among alternative courses of action in engineering applicat
+ ions. Topics include: cost-driven design economics\, break-even anlaysis
+ \, money-time relationships\, rates of return\, cost estimation\, deprec
+ iation and taxes\, foreign exchange rates\, life cycle analysis\, benefi
+ t-cost ratios\, risk analysis\, capital financing and allocation\, and f
+ inancial statement analysis. Case studies apply these topics to actual e
+ ngineering problems.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20121207;BYDAY=TH
+UID:20120425T052356Z-1335331424630@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120911T163000
+DTEND:20120911T180000
+SUMMARY:MKSE212001
+DESCRIPTION:What is the "cloud"? How do we build software systems and com
+ ponents that scale to millions of users and petabytes of data\, and are 
+ "always available"? In the modern Internet\, virtually all large Web ser
+ vices run atop multiple geographically distributed data centers: Google\
+ , Yahoo\, Facebook\, iTunes\, Amazon\, eBay\, Bing\, Services must scale
+  across thousands of machines\, tolerate faults\, and support of concurr
+ ent requests. Increasingly\, the major providers (including Amazon\, GoM
+ icrosoft\, HP\, and IBM) are looking at "hosting" third-party applicatio
+ ns in their data centers - forming so-called "cloud computing" services.
+  A significant number of these services also process "streaming" data: g
+ eocoding information from cell phones\, tweets\, streaming video\, etc. 
+ This course\, aimed at a sophomore with exposure to basic programming wi
+ thin the context of a single machine\, focuses on the issues and program
+ ming models related to such cloud and distributed data processing techno
+ logies: data partitioning\, storage schemes\, stream processing\, and "m
+ ostly shared-nothing" parallel algorithms.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20121207;BYDAY=TU
+UID:20120425T052357Z-1335331424635@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120906T163000
+DTEND:20120906T180000
+SUMMARY:MKSE212001
+DESCRIPTION:What is the "cloud"? How do we build software systems and com
+ ponents that scale to millions of users and petabytes of data\, and are 
+ "always available"? In the modern Internet\, virtually all large Web ser
+ vices run atop multiple geographically distributed data centers: Google\
+ , Yahoo\, Facebook\, iTunes\, Amazon\, eBay\, Bing\, Services must scale
+  across thousands of machines\, tolerate faults\, and support of concurr
+ ent requests. Increasingly\, the major providers (including Amazon\, GoM
+ icrosoft\, HP\, and IBM) are looking at "hosting" third-party applicatio
+ ns in their data centers - forming so-called "cloud computing" services.
+  A significant number of these services also process "streaming" data: g
+ eocoding information from cell phones\, tweets\, streaming video\, etc. 
+ This course\, aimed at a sophomore with exposure to basic programming wi
+ thin the context of a single machine\, focuses on the issues and program
+ ming models related to such cloud and distributed data processing techno
+ logies: data partitioning\, storage schemes\, stream processing\, and "m
+ ostly shared-nothing" parallel algorithms.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20121207;BYDAY=TH
+UID:20120425T052358Z-1335331424639@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+END:VCALENDAR

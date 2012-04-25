@@ -10,15 +10,12 @@
     <th></th>
     <th></th>
   </tr>
-<% current_user.study_sessions.each do |study_session| %>
+<% StudySession.all.each do |study_session| %>
   <tr>
-    <td><%= study_session.course.full_name %></td>
+    <td><%= study_session.course %></td>
     <td><%= study_session.date %></td>
     <td><%= study_session.time %></td>
     <td><%= study_session.location %></td>
-    <td><%= link_to 'Show', study_session %></td>
-    <td><%= link_to 'Edit', edit_study_session_path(study_session) %></td>
-    <td><%= link_to 'Destroy', study_session, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
 <% end %>
 </table>

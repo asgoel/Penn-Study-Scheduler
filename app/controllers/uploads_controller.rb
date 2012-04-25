@@ -1,3 +1,5 @@
+include Icalendar
+
 class UploadsController < ApplicationController
   # GET /uploads
   # GET /uploads.json
@@ -44,27 +46,31 @@ class UploadsController < ApplicationController
     @upload.save
     i = params[:upload].delete("user_id")
     @user = User.find(i)
-    @user.update_attributes(:registrations => nil)
+    @user.registrations.each do |r|
+      r.destroy
+    end
     @user.update_attributes(:schedule => params[:schedule])
     cal_file = File.open(@upload.schedule.url(:default, false))
     
     cals = Icalendar.parse(cal_file)
     cal = cals.first
     events = cal.events
-    checked_events = []
+    checked_events = Array.new
     events.each do |e| 
       name = e.summary
-      if !events.include?(name)
-        events << name
-        parts = name.split
-        dept = parts[0]
-        number = Integer(parts[1][0..2])
-        section = parts[1][3..5]
+      if !checked_events.include?(name)
+        checked_events << name
+        dept = name[0..3].strip!
+        secondpart = name[4..9]
+        number = secondpart[0..2]
+        number = Integer(number)
+        section = secondpart[3..5]
         @old_course = Course.find_by_department_and_number_and_section(dept, number, section)
         if @old_course == nil
-              @course = Course.new(:department => dept, :number => number, :section => section, :admin => false)
+              @course = Course.new(:department => dept, :number => number, :section => section)
               @registration = Registration.new({:user => @user, :course => nil})
                     if @course.save && @registration.save
+                      puts 'saved'
                       @registration.update_attributes(:course => @course)
                     end
         else
@@ -77,7 +83,7 @@ class UploadsController < ApplicationController
      end  
     respond_to do |format|
       if @user.update_attributes(params[:user])
-        format.html { redirect_to registrations_path(@user), notice: 'Schedule was successfully updated.' }
+        format.html { redirect_to registrations_path, notice: 'Schedule was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
