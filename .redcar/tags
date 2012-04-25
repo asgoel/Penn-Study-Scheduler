@@ -1,4 +1,4 @@
-1335379829
+1335380398
 AddAttachmentScheduleToUploads	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/db/migrate/20120425091358_add_attachment_schedule_to_uploads.rb	class AddAttachmentScheduleToUploads 
 Course	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/course.rb	class Course 
 CreateInvitations	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/db/migrate/20120425102004_create_invitations.rb	class CreateInvitations 
@@ -41,8 +41,8 @@ edit	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controll
 edit	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/invitations_controller.rb	  def edit
 edit	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/study_sessions_controller.rb	  def edit
 edit	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/uploads_controller.rb	  def edit
-full_name	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/user.rb	  def full_name
 full_name	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/course.rb	  def full_name
+full_name	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/user.rb	  def full_name
 index	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/registrations_controller.rb	  def index
 index	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/invitations_controller.rb	  def index
 index	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/study_sessions_controller.rb	  def index
