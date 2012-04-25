@@ -1,4 +1,4 @@
-1335377869
+1335379829
 AddAttachmentScheduleToUploads	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/db/migrate/20120425091358_add_attachment_schedule_to_uploads.rb	class AddAttachmentScheduleToUploads 
 Course	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/course.rb	class Course 
 CreateInvitations	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/db/migrate/20120425102004_create_invitations.rb	class CreateInvitations 
