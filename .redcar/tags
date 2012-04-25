@@ -1,4 +1,4 @@
-1335376583
+1335377869
 AddAttachmentScheduleToUploads	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/db/migrate/20120425091358_add_attachment_schedule_to_uploads.rb	class AddAttachmentScheduleToUploads 
 Course	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/course.rb	class Course 
 CreateInvitations	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/db/migrate/20120425102004_create_invitations.rb	class CreateInvitations 
@@ -11,7 +11,6 @@ InvitationsControllerTest	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-S
 InvitationsHelper	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/helpers/invitations_helper.rb	module InvitationsHelper
 InvitationsHelperTest	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/test/unit/helpers/invitations_helper_test.rb	class InvitationsHelperTest 
 RegistrationsController	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/registrations_controller.rb	class RegistrationsController 
-RegistrationsController	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/my_devise.rb	class MyDevise::RegistrationsController 
 StudySession	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/study_session.rb	class StudySession 
 StudySessionTest	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/test/unit/study_session_test.rb	class StudySessionTest 
 StudySessionsController	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/study_sessions_controller.rb	class StudySessionsController 
@@ -62,4 +61,3 @@ update	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/contro
 update	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/invitations_controller.rb	  def update
 update	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/study_sessions_controller.rb	  def update
 update	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/uploads_controller.rb	  def update
-upload	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/my_devise.rb	  def upload
