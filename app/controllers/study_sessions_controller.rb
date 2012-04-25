@@ -44,8 +44,8 @@ class StudySessionsController < ApplicationController
 
     respond_to do |format|
       if @study_session.save
-        format.html { redirect_to [@study_session.course, @study_session], notice: 'Study session was successfully created.' }
-        format.json { render json: [@study_session.course, @study_session], status: :created, location: @study_session }
+        format.html { redirect_to '/registrations', notice: 'Study session was successfully created.' }
+        format.json { render json: '/registrations', status: :created, location: @study_session }
       else
         format.html { render action: "new" }
         format.json { render json: @study_session.errors, status: :unprocessable_entity }
