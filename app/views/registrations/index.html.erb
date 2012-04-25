@@ -17,6 +17,15 @@
   </tr>
 <% end %>
 </table>
-
+<br>
+<% @user = current_user %>
+<%= form_for(@user, :html => {:multipart => true}) do |f| %>
+  <div class="field">
+    <%= f.file_field :schedule %>
+  </div>
+  <div class = "actions">
+    <%= f.submit %>
+  </div>
+<% end %>
 <%= link_to 'New Registration', new_registration_path %>
 <br><a href="/">Back</a>

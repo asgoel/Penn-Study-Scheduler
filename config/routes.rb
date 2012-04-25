@@ -1,6 +1,5 @@
 PennStudyScheduler::Application.routes.draw do
 
-  devise_for :users
   
   resources :registrations
 
@@ -8,6 +7,9 @@ PennStudyScheduler::Application.routes.draw do
 
   root :to => 'home#index'
   resources :courses
+  devise_for :users, :controllers => {
+    :registrations => 'my_devise/registrations'
+  }
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

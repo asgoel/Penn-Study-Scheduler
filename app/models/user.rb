@@ -9,9 +9,11 @@ class User < ActiveRecord::Base
   validates :last_name, :presence => true
   validates :email, :uniqueness => {:case_sensitve => false}
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :first_name, :last_name, :email, :password, :password_confirmation, :remember_me
+  attr_accessible :first_name, :last_name, :email, :password, :password_confirmation, :remember_me, :schedule
   
   def full_name
     "#{first_name} #{last_name}"
   end
+  
+  has_attached_file :schedule
 end
