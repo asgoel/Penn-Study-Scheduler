@@ -1,15 +1,16 @@
 PennStudyScheduler::Application.routes.draw do
+  resources :invitations
 
-  
-  resources :registrations
-
+  resources :uploads
+  resources :registrations do
+    post 'registrations' => 'registrations#upload'
+  end
   get "home/index"
-
   root :to => 'home#index'
-  resources :courses
-  devise_for :users, :controllers => {
-    :registrations => 'my_devise/registrations'
-  }
+  resources :courses do
+    resources :study_sessions
+  end
+  devise_for :users
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

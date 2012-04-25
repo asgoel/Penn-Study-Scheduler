@@ -1,0 +1,283 @@
+BEGIN:VCALENDAR
+PRODID:1335339581919
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120910T133000
+DTEND:20120910T150000
+SUMMARY:ACCT101004
+DESCRIPTION:This course is an introduction to the basic concepts and stan
+ dards underlying financial accounting systems. Several important concept
+ s will be studied in detail\, including: revenue recognition\, inventory
+ \, long-lived assets\, present value\, and long term liabilities. The co
+ urse emphasizes the construction of the basic financial accounting state
+ ments - the income statement\, balance sheet\, and cash flow statement -
+  as well as their interpretation.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20121207;BYDAY=MO
+UID:20120425T073941Z-1335339581922@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120905T133000
+DTEND:20120905T150000
+SUMMARY:ACCT101004
+DESCRIPTION:This course is an introduction to the basic concepts and stan
+ dards underlying financial accounting systems. Several important concept
+ s will be studied in detail\, including: revenue recognition\, inventory
+ \, long-lived assets\, present value\, and long term liabilities. The co
+ urse emphasizes the construction of the basic financial accounting state
+ ments - the income statement\, balance sheet\, and cash flow statement -
+  as well as their interpretation.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=WE;INTERVAL=1;UNTIL=20121207;BYDAY=WE
+UID:20120425T073942Z-1335339581927@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120907T120000
+DTEND:20120907T130000
+SUMMARY:ACCT101204
+DESCRIPTION:This course is an introduction to the basic concepts and stan
+ dards underlying financial accounting systems. Several important concept
+ s will be studied in detail\, including: revenue recognition\, inventory
+ \, long-lived assets\, present value\, and long term liabilities. The co
+ urse emphasizes the construction of the basic financial accounting state
+ ments - the income statement\, balance sheet\, and cash flow statement -
+  as well as their interpretation.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=FR;INTERVAL=1;UNTIL=20121207;BYDAY=FR
+UID:20120425T073943Z-1335339581932@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120911T103000
+DTEND:20120911T120000
+SUMMARY:ARTH220401
+DESCRIPTION:This course surveys Greek art and artifacts from Sicily to th
+ e Black Sea from the 10th BCE up to the 2nd centuries BCE reaching the A
+ ge of Alexander and the Hellenistic Kingdoms. Our objects range from pub
+ lic sculpture and painting on and around grand buildings and gardens\, t
+ o domestic luxury arts like jewelry\, cups and vases\, mosaic floors\, a
+ nd the humbler objects of worship and every-day life. Greek addressed he
+ roic epic\, religous and political themes\, engaged viewers' emotions\, 
+ and served mundane as well as monumental aims. Current themes include Gr
+ eek ways of looking at art and space\, and ideas of invention and progre
+ ss\; the roll of monuments\, makers and patrons in Greek society\; and c
+ onnections with the other cultures that inspired and made use of Greek a
+ rtists and styles. To understand ancient viewers' encounters\, you will 
+ meet the spaces of sanctuary and tomb\, house and city\, garden and priv
+ ate collection\; your readings will sample ancient peoples' art writing.
+  Diverse approaches introduce art historical aims and methods\, and thei
+ r relationships to archaeology\, anthropology and other disciplines -- a
+ lso to modern kinds of museums\, not least our own University Museum of 
+ Archaeology. No prerequisites. This course fulfills the 'global requirem
+ ent'. Of interest to students of classical\, middle-eastern\, visual and
+  religious studies\, anthropology\, history\, communications and the GSD
+  programs.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20121207;BYDAY=TU
+UID:20120425T073944Z-1335339581938@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120906T103000
+DTEND:20120906T120000
+SUMMARY:ARTH220401
+DESCRIPTION:This course surveys Greek art and artifacts from Sicily to th
+ e Black Sea from the 10th BCE up to the 2nd centuries BCE reaching the A
+ ge of Alexander and the Hellenistic Kingdoms. Our objects range from pub
+ lic sculpture and painting on and around grand buildings and gardens\, t
+ o domestic luxury arts like jewelry\, cups and vases\, mosaic floors\, a
+ nd the humbler objects of worship and every-day life. Greek addressed he
+ roic epic\, religous and political themes\, engaged viewers' emotions\, 
+ and served mundane as well as monumental aims. Current themes include Gr
+ eek ways of looking at art and space\, and ideas of invention and progre
+ ss\; the roll of monuments\, makers and patrons in Greek society\; and c
+ onnections with the other cultures that inspired and made use of Greek a
+ rtists and styles. To understand ancient viewers' encounters\, you will 
+ meet the spaces of sanctuary and tomb\, house and city\, garden and priv
+ ate collection\; your readings will sample ancient peoples' art writing.
+  Diverse approaches introduce art historical aims and methods\, and thei
+ r relationships to archaeology\, anthropology and other disciplines -- a
+ lso to modern kinds of museums\, not least our own University Museum of 
+ Archaeology. No prerequisites. This course fulfills the 'global requirem
+ ent'. Of interest to students of classical\, middle-eastern\, visual and
+  religious studies\, anthropology\, history\, communications and the GSD
+  programs.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20121207;BYDAY=TH
+UID:20120425T073945Z-1335339581943@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120910T110000
+DTEND:20120910T120000
+SUMMARY:CIS 195001
+DESCRIPTION:
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20121207;BYDAY=MO
+UID:20120425T073946Z-1335339581949@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120910T150000
+DTEND:20120910T163000
+SUMMARY:CIS 240001
+DESCRIPTION:You know how to program\, but do you know how computers reall
+ y work? How do millions of transistors come together to form a complete 
+ computing system? This bottom-up course begins with transistors and simp
+ le computer hardware structures\, continues with low-level programming u
+ sing primative machine instructions\, and finishes with an introduction 
+ to all aspects of computer systems architecture and serves as the founda
+ tion for subsequent computer systems courses\, such as Digital Systems O
+ rganization and Design (CIS 371)\, Computer Operating Systems (CIS 380)\
+ , and Compilers and Interpreters (CIS 341). The course will consider the
+  SPARC architecture\, boolean logic\, number systems\,and computer arith
+ metic\; macro assembly language programming and subroutine linkages\; th
+ e operating system interface and input/output\; understanding the output
+  of the C compiler\; the use of the C programming language to generate s
+ pecific assembly language instructions.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20121207;BYDAY=MO
+UID:20120425T073947Z-1335339581954@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120905T150000
+DTEND:20120905T163000
+SUMMARY:CIS 240001
+DESCRIPTION:You know how to program\, but do you know how computers reall
+ y work? How do millions of transistors come together to form a complete 
+ computing system? This bottom-up course begins with transistors and simp
+ le computer hardware structures\, continues with low-level programming u
+ sing primative machine instructions\, and finishes with an introduction 
+ to all aspects of computer systems architecture and serves as the founda
+ tion for subsequent computer systems courses\, such as Digital Systems O
+ rganization and Design (CIS 371)\, Computer Operating Systems (CIS 380)\
+ , and Compilers and Interpreters (CIS 341). The course will consider the
+  SPARC architecture\, boolean logic\, number systems\,and computer arith
+ metic\; macro assembly language programming and subroutine linkages\; th
+ e operating system interface and input/output\; understanding the output
+  of the C compiler\; the use of the C programming language to generate s
+ pecific assembly language instructions.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=WE;INTERVAL=1;UNTIL=20121207;BYDAY=WE
+UID:20120425T073948Z-1335339581959@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120911T120000
+DTEND:20120911T133000
+SUMMARY:CIS 262001
+DESCRIPTION:This course explores questions fundamental to computer scienc
+ e such as which problems cannot be solved by computers\, can we formaliz
+ e computing as a mathematical concept without relying upon the specifics
+  of programming languages and computing platforms\, and which problems c
+ an be solved efficiently. The topics include finite automata and regular
+  languages\, context-free grammars and pushdown automata\, Turing machin
+ es and undecidability\, tractability and NP-completeness. The course emp
+ hasizes rigorous mathematical reasoning as well as connections to practi
+ cal computing problems such as test processing\, parsing\, XML query lan
+ guages\, and program verification.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20121207;BYDAY=TU
+UID:20120425T073949Z-1335339581964@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120906T120000
+DTEND:20120906T133000
+SUMMARY:CIS 262001
+DESCRIPTION:This course explores questions fundamental to computer scienc
+ e such as which problems cannot be solved by computers\, can we formaliz
+ e computing as a mathematical concept without relying upon the specifics
+  of programming languages and computing platforms\, and which problems c
+ an be solved efficiently. The topics include finite automata and regular
+  languages\, context-free grammars and pushdown automata\, Turing machin
+ es and undecidability\, tractability and NP-completeness. The course emp
+ hasizes rigorous mathematical reasoning as well as connections to practi
+ cal computing problems such as test processing\, parsing\, XML query lan
+ guages\, and program verification.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20121207;BYDAY=TH
+UID:20120425T073950Z-1335339581969@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120910T163000
+DTEND:20120910T173000
+SUMMARY:CIS 262201
+DESCRIPTION:This course explores questions fundamental to computer scienc
+ e such as which problems cannot be solved by computers\, can we formaliz
+ e computing as a mathematical concept without relying upon the specifics
+  of programming languages and computing platforms\, and which problems c
+ an be solved efficiently. The topics include finite automata and regular
+  languages\, context-free grammars and pushdown automata\, Turing machin
+ es and undecidability\, tractability and NP-completeness. The course emp
+ hasizes rigorous mathematical reasoning as well as connections to practi
+ cal computing problems such as test processing\, parsing\, XML query lan
+ guages\, and program verification.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20121207;BYDAY=MO
+UID:20120425T073951Z-1335339581974@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120910T120000
+DTEND:20120910T133000
+SUMMARY:CIS 552001
+DESCRIPTION:The goals of this course are twofold: (1) to take good progra
+ mmers and turn them into excellent ones\, and (2) to introduce them to a
+  range of modern software engineering practices\, in particular those em
+ bodied in advanced functional programming languages.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20121207;BYDAY=MO
+UID:20120425T073952Z-1335339581979@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120905T120000
+DTEND:20120905T133000
+SUMMARY:CIS 552001
+DESCRIPTION:The goals of this course are twofold: (1) to take good progra
+ mmers and turn them into excellent ones\, and (2) to introduce them to a
+  range of modern software engineering practices\, in particular those em
+ bodied in advanced functional programming languages.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=WE;INTERVAL=1;UNTIL=20121207;BYDAY=WE
+UID:20120425T073953Z-1335339581984@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120911T133000
+DTEND:20120911T150000
+SUMMARY:FNCE100302
+DESCRIPTION:This course provides an introduction to the theory\, the meth
+ ods\, and the concerns of corporate finance. The concepts developed in F
+ NCE 100 form the foundation for all elective finance courses. The main t
+ opics include: 1) the time value of money and capital budgeting techniqu
+ es\; 2) uncertainty and the trade-off between risk and return\; 3) secur
+ ity market efficiency\; 4) optimal capital structure\, and 5) dividend p
+ olicy decisions.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20121207;BYDAY=TU
+UID:20120425T073954Z-1335339581989@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T073941Z
+DTSTART:20120906T133000
+DTEND:20120906T150000
+SUMMARY:FNCE100302
+DESCRIPTION:This course provides an introduction to the theory\, the meth
+ ods\, and the concerns of corporate finance. The concepts developed in F
+ NCE 100 form the foundation for all elective finance courses. The main t
+ opics include: 1) the time value of money and capital budgeting techniqu
+ es\; 2) uncertainty and the trade-off between risk and return\; 3) secur
+ ity market efficiency\; 4) optimal capital structure\, and 5) dividend p
+ olicy decisions.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20121207;BYDAY=TH
+UID:20120425T073955Z-1335339581994@fe80:0:0:0:200:ff:fe00:0%5
+END:VEVENT
+END:VCALENDAR

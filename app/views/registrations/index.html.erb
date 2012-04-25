@@ -11,21 +11,13 @@
 <% @registrations.sort_by {|r| r.course.full_name }.each do |registration| %>
 <tr>
     <td><%= registration.course.full_name %></td>
-    <td><%= link_to 'Show', registration.course %></td>
+    <td><%= link_to 'Study', new_course_study_session_path(registration.course) %></td>
     <td><%= link_to 'Edit', edit_registration_path(registration) %></td>
     <td><%= link_to 'Destroy', registration, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
 <% end %>
 </table>
 <br>
-<% @user = current_user %>
-<%= form_for(@user, :html => {:multipart => true}) do |f| %>
-  <div class="field">
-    <%= f.file_field :schedule %>
-  </div>
-  <div class = "actions">
-    <%= f.submit %>
-  </div>
-<% end %>
+<a href="/uploads/new">Upload your Schedule</a><br>
 <%= link_to 'New Registration', new_registration_path %>
 <br><a href="/">Back</a>

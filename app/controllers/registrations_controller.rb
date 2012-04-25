@@ -1,3 +1,4 @@
+include Icalendar
 class RegistrationsController < ApplicationController
   def registrations
     current_user.registrations

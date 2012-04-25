@@ -5,6 +5,10 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :validatable
   has_many :registrations
   has_many :courses, :through => :registrations
+  
+  has_many :invitations
+  has_many :study_sessions, :through => :invitations
+  
   validates :first_name, :presence => true
   validates :last_name, :presence => true
   validates :email, :uniqueness => {:case_sensitve => false}
@@ -15,5 +19,6 @@ class User < ActiveRecord::Base
     "#{first_name} #{last_name}"
   end
   
-  has_attached_file :schedule
+  has_attached_file :schedule,
+    :default_url => 'public/assets/rails.png'
 end

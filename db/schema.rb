@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120425002523) do
+ActiveRecord::Schema.define(:version => 20120425102004) do
 
   create_table "courses", :force => true do |t|
     t.string    "department"
@@ -33,6 +33,16 @@ ActiveRecord::Schema.define(:version => 20120425002523) do
 
   add_index "events", ["course_id"], :name => "index_events_on_course_id"
 
+  create_table "invitations", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "study_session_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
+  add_index "invitations", ["study_session_id"], :name => "index_invitations_on_study_session_id"
+  add_index "invitations", ["user_id"], :name => "index_invitations_on_user_id"
+
   create_table "registrations", :force => true do |t|
     t.integer   "user_id"
     t.integer   "course_id"
@@ -42,6 +52,27 @@ ActiveRecord::Schema.define(:version => 20120425002523) do
 
   add_index "registrations", ["course_id"], :name => "index_registrations_on_course_id"
   add_index "registrations", ["user_id"], :name => "index_registrations_on_user_id"
+
+  create_table "study_sessions", :force => true do |t|
+    t.integer  "course_id"
+    t.date     "date"
+    t.time     "time"
+    t.string   "location"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "study_sessions", ["course_id"], :name => "index_study_sessions_on_course_id"
+
+  create_table "uploads", :force => true do |t|
+    t.integer  "user_id"
+    t.datetime "created_at",            :null => false
+    t.datetime "updated_at",            :null => false
+    t.string   "schedule_file_name"
+    t.string   "schedule_content_type"
+    t.integer  "schedule_file_size"
+    t.datetime "schedule_updated_at"
+  end
 
   create_table "users", :force => true do |t|
     t.string    "email",                  :default => "", :null => false

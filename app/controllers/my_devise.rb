@@ -1,8 +1,8 @@
 include Icalendar
 class MyDevise::RegistrationsController < Devise::RegistrationsController
 
-  def update
-    @user = users.find(params[:id])
+  def upload
+    @user = User.find(params[:user_id])
     @user.update_attributes(:registrations => nil)
     cal_file = File.open(@user.schedule.url)
     cals = Icalendar.parse(cal_file)
