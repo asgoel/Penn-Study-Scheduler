@@ -60,7 +60,7 @@ class UploadsController < ApplicationController
       name = e.summary
       if !checked_events.include?(name)
         checked_events << name
-        dept = name[0..3].strip!
+        dept = name[0..3].strip
         secondpart = name[4..9]
         number = secondpart[0..2]
         number = Integer(number)
