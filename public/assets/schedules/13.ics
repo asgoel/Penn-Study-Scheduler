@@ -1,126 +1,28 @@
 BEGIN:VCALENDAR
-PRODID:1335339581919
+PRODID:1335331424573
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
-DTSTART:20120910T133000
-DTEND:20120910T150000
-SUMMARY:ACCT101004
-DESCRIPTION:This course is an introduction to the basic concepts and stan
- dards underlying financial accounting systems. Several important concept
- s will be studied in detail\, including: revenue recognition\, inventory
- \, long-lived assets\, present value\, and long term liabilities. The co
- urse emphasizes the construction of the basic financial accounting state
- ments - the income statement\, balance sheet\, and cash flow statement -
-  as well as their interpretation.
-LOCATION:TBA TBA
-RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20121207;BYDAY=MO
-UID:20120425T073941Z-1335339581922@fe80:0:0:0:200:ff:fe00:0%5
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
-DTSTART:20120905T133000
-DTEND:20120905T150000
-SUMMARY:ACCT101004
-DESCRIPTION:This course is an introduction to the basic concepts and stan
- dards underlying financial accounting systems. Several important concept
- s will be studied in detail\, including: revenue recognition\, inventory
- \, long-lived assets\, present value\, and long term liabilities. The co
- urse emphasizes the construction of the basic financial accounting state
- ments - the income statement\, balance sheet\, and cash flow statement -
-  as well as their interpretation.
-LOCATION:TBA TBA
-RRULE:FREQ=WEEKLY;WKST=WE;INTERVAL=1;UNTIL=20121207;BYDAY=WE
-UID:20120425T073942Z-1335339581927@fe80:0:0:0:200:ff:fe00:0%5
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
-DTSTART:20120907T120000
-DTEND:20120907T130000
-SUMMARY:ACCT101204
-DESCRIPTION:This course is an introduction to the basic concepts and stan
- dards underlying financial accounting systems. Several important concept
- s will be studied in detail\, including: revenue recognition\, inventory
- \, long-lived assets\, present value\, and long term liabilities. The co
- urse emphasizes the construction of the basic financial accounting state
- ments - the income statement\, balance sheet\, and cash flow statement -
-  as well as their interpretation.
-LOCATION:TBA TBA
-RRULE:FREQ=WEEKLY;WKST=FR;INTERVAL=1;UNTIL=20121207;BYDAY=FR
-UID:20120425T073943Z-1335339581932@fe80:0:0:0:200:ff:fe00:0%5
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
-DTSTART:20120911T103000
-DTEND:20120911T120000
-SUMMARY:ARTH220401
-DESCRIPTION:This course surveys Greek art and artifacts from Sicily to th
- e Black Sea from the 10th BCE up to the 2nd centuries BCE reaching the A
- ge of Alexander and the Hellenistic Kingdoms. Our objects range from pub
- lic sculpture and painting on and around grand buildings and gardens\, t
- o domestic luxury arts like jewelry\, cups and vases\, mosaic floors\, a
- nd the humbler objects of worship and every-day life. Greek addressed he
- roic epic\, religous and political themes\, engaged viewers' emotions\, 
- and served mundane as well as monumental aims. Current themes include Gr
- eek ways of looking at art and space\, and ideas of invention and progre
- ss\; the roll of monuments\, makers and patrons in Greek society\; and c
- onnections with the other cultures that inspired and made use of Greek a
- rtists and styles. To understand ancient viewers' encounters\, you will 
- meet the spaces of sanctuary and tomb\, house and city\, garden and priv
- ate collection\; your readings will sample ancient peoples' art writing.
-  Diverse approaches introduce art historical aims and methods\, and thei
- r relationships to archaeology\, anthropology and other disciplines -- a
- lso to modern kinds of museums\, not least our own University Museum of 
- Archaeology. No prerequisites. This course fulfills the 'global requirem
- ent'. Of interest to students of classical\, middle-eastern\, visual and
-  religious studies\, anthropology\, history\, communications and the GSD
-  programs.
+DTSTAMP:20120425T052344Z
+DTSTART:20120911T100000
+DTEND:20120911T113000
+SUMMARY:CIS 190001
+DESCRIPTION:This course will provide an introduction to programming in C+
+ + and is intended for students who already have some exposure to program
+ ming in another language such as Java\, C++ provides the programmer with
+  a greater level of control over machine resources and are commonly used
+  in situations where low level access or performance are important. This
+  course will illuminate the issues associated with programming at this l
+ evel and will cover issues such as explicit memory management\, pointers
+ \, the compilation process and debugging. The course will involve severa
+ l programming projects which will provide students with the experience t
+ hey need to program effectively in these languages. This course assumes 
+ programming experience equivalent to CIS 110\, CIS 120 or ESE 112.
 LOCATION:TBA TBA
 RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20121207;BYDAY=TU
-UID:20120425T073944Z-1335339581938@fe80:0:0:0:200:ff:fe00:0%5
+UID:20120425T052344Z-1335331424575@fe80:0:0:0:213:72ff:fe60:697d%4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
-DTSTART:20120906T103000
-DTEND:20120906T120000
-SUMMARY:ARTH220401
-DESCRIPTION:This course surveys Greek art and artifacts from Sicily to th
- e Black Sea from the 10th BCE up to the 2nd centuries BCE reaching the A
- ge of Alexander and the Hellenistic Kingdoms. Our objects range from pub
- lic sculpture and painting on and around grand buildings and gardens\, t
- o domestic luxury arts like jewelry\, cups and vases\, mosaic floors\, a
- nd the humbler objects of worship and every-day life. Greek addressed he
- roic epic\, religous and political themes\, engaged viewers' emotions\, 
- and served mundane as well as monumental aims. Current themes include Gr
- eek ways of looking at art and space\, and ideas of invention and progre
- ss\; the roll of monuments\, makers and patrons in Greek society\; and c
- onnections with the other cultures that inspired and made use of Greek a
- rtists and styles. To understand ancient viewers' encounters\, you will 
- meet the spaces of sanctuary and tomb\, house and city\, garden and priv
- ate collection\; your readings will sample ancient peoples' art writing.
-  Diverse approaches introduce art historical aims and methods\, and thei
- r relationships to archaeology\, anthropology and other disciplines -- a
- lso to modern kinds of museums\, not least our own University Museum of 
- Archaeology. No prerequisites. This course fulfills the 'global requirem
- ent'. Of interest to students of classical\, middle-eastern\, visual and
-  religious studies\, anthropology\, history\, communications and the GSD
-  programs.
-LOCATION:TBA TBA
-RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20121207;BYDAY=TH
-UID:20120425T073945Z-1335339581943@fe80:0:0:0:200:ff:fe00:0%5
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
-DTSTART:20120910T110000
-DTEND:20120910T120000
-SUMMARY:CIS 195001
-DESCRIPTION:
-LOCATION:TBA TBA
-RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20121207;BYDAY=MO
-UID:20120425T073946Z-1335339581949@fe80:0:0:0:200:ff:fe00:0%5
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
+DTSTAMP:20120425T052344Z
 DTSTART:20120910T150000
 DTEND:20120910T163000
 SUMMARY:CIS 240001
@@ -140,10 +42,10 @@ DESCRIPTION:You know how to program\, but do you know how computers reall
  pecific assembly language instructions.
 LOCATION:TBA TBA
 RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20121207;BYDAY=MO
-UID:20120425T073947Z-1335339581954@fe80:0:0:0:200:ff:fe00:0%5
+UID:20120425T052345Z-1335331424581@fe80:0:0:0:213:72ff:fe60:697d%4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
+DTSTAMP:20120425T052344Z
 DTSTART:20120905T150000
 DTEND:20120905T163000
 SUMMARY:CIS 240001
@@ -163,10 +65,61 @@ DESCRIPTION:You know how to program\, but do you know how computers reall
  pecific assembly language instructions.
 LOCATION:TBA TBA
 RRULE:FREQ=WEEKLY;WKST=WE;INTERVAL=1;UNTIL=20121207;BYDAY=WE
-UID:20120425T073948Z-1335339581959@fe80:0:0:0:200:ff:fe00:0%5
+UID:20120425T052346Z-1335331424585@fe80:0:0:0:213:72ff:fe60:697d%4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
+DTSTAMP:20120425T052344Z
+DTSTART:20120911T133000
+DTEND:20120911T150000
+SUMMARY:CIS 261001
+DESCRIPTION:This course tightly integrates the theory and applications of
+  discrete probability\, discrete stochastic processes\, and discrete sta
+ tistical inference in the study of computer science. The course will int
+ roduce the Minimum Description Length Paradigm to unite basic ideas abou
+ t randomness\, inference and computation. Students will be expected to u
+ se the Maple programming environment in homework exercises which will in
+ clude numerical and symbolic computations\, simulations\, and graphical 
+ displays.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20121207;BYDAY=TU
+UID:20120425T052347Z-1335331424590@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120906T133000
+DTEND:20120906T150000
+SUMMARY:CIS 261001
+DESCRIPTION:This course tightly integrates the theory and applications of
+  discrete probability\, discrete stochastic processes\, and discrete sta
+ tistical inference in the study of computer science. The course will int
+ roduce the Minimum Description Length Paradigm to unite basic ideas abou
+ t randomness\, inference and computation. Students will be expected to u
+ se the Maple programming environment in homework exercises which will in
+ clude numerical and symbolic computations\, simulations\, and graphical 
+ displays.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20121207;BYDAY=TH
+UID:20120425T052348Z-1335331424595@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120907T140000
+DTEND:20120907T150000
+SUMMARY:CIS 261201
+DESCRIPTION:This course tightly integrates the theory and applications of
+  discrete probability\, discrete stochastic processes\, and discrete sta
+ tistical inference in the study of computer science. The course will int
+ roduce the Minimum Description Length Paradigm to unite basic ideas abou
+ t randomness\, inference and computation. Students will be expected to u
+ se the Maple programming environment in homework exercises which will in
+ clude numerical and symbolic computations\, simulations\, and graphical 
+ displays.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=FR;INTERVAL=1;UNTIL=20121207;BYDAY=FR
+UID:20120425T052349Z-1335331424599@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
 DTSTART:20120911T120000
 DTEND:20120911T133000
 SUMMARY:CIS 262001
@@ -182,10 +135,10 @@ DESCRIPTION:This course explores questions fundamental to computer scienc
  guages\, and program verification.
 LOCATION:TBA TBA
 RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20121207;BYDAY=TU
-UID:20120425T073949Z-1335339581964@fe80:0:0:0:200:ff:fe00:0%5
+UID:20120425T052350Z-1335331424604@fe80:0:0:0:213:72ff:fe60:697d%4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
+DTSTAMP:20120425T052344Z
 DTSTART:20120906T120000
 DTEND:20120906T133000
 SUMMARY:CIS 262001
@@ -201,10 +154,10 @@ DESCRIPTION:This course explores questions fundamental to computer scienc
  guages\, and program verification.
 LOCATION:TBA TBA
 RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20121207;BYDAY=TH
-UID:20120425T073950Z-1335339581969@fe80:0:0:0:200:ff:fe00:0%5
+UID:20120425T052351Z-1335331424608@fe80:0:0:0:213:72ff:fe60:697d%4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
+DTSTAMP:20120425T052344Z
 DTSTART:20120910T163000
 DTEND:20120910T173000
 SUMMARY:CIS 262201
@@ -220,10 +173,10 @@ DESCRIPTION:This course explores questions fundamental to computer scienc
  guages\, and program verification.
 LOCATION:TBA TBA
 RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20121207;BYDAY=MO
-UID:20120425T073951Z-1335339581974@fe80:0:0:0:200:ff:fe00:0%5
+UID:20120425T052352Z-1335331424613@fe80:0:0:0:213:72ff:fe60:697d%4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
+DTSTAMP:20120425T052344Z
 DTSTART:20120910T120000
 DTEND:20120910T133000
 SUMMARY:CIS 552001
@@ -233,10 +186,10 @@ DESCRIPTION:The goals of this course are twofold: (1) to take good progra
  bodied in advanced functional programming languages.
 LOCATION:TBA TBA
 RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20121207;BYDAY=MO
-UID:20120425T073952Z-1335339581979@fe80:0:0:0:200:ff:fe00:0%5
+UID:20120425T052353Z-1335331424617@fe80:0:0:0:213:72ff:fe60:697d%4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
+DTSTAMP:20120425T052344Z
 DTSTART:20120905T120000
 DTEND:20120905T133000
 SUMMARY:CIS 552001
@@ -246,38 +199,90 @@ DESCRIPTION:The goals of this course are twofold: (1) to take good progra
  bodied in advanced functional programming languages.
 LOCATION:TBA TBA
 RRULE:FREQ=WEEKLY;WKST=WE;INTERVAL=1;UNTIL=20121207;BYDAY=WE
-UID:20120425T073953Z-1335339581984@fe80:0:0:0:200:ff:fe00:0%5
+UID:20120425T052354Z-1335331424622@fe80:0:0:0:213:72ff:fe60:697d%4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
-DTSTART:20120911T133000
-DTEND:20120911T150000
-SUMMARY:FNCE100302
-DESCRIPTION:This course provides an introduction to the theory\, the meth
- ods\, and the concerns of corporate finance. The concepts developed in F
- NCE 100 form the foundation for all elective finance courses. The main t
- opics include: 1) the time value of money and capital budgeting techniqu
- es\; 2) uncertainty and the trade-off between risk and return\; 3) secur
- ity market efficiency\; 4) optimal capital structure\, and 5) dividend p
- olicy decisions.
+DTSTAMP:20120425T052344Z
+DTSTART:20120911T150000
+DTEND:20120911T163000
+SUMMARY:ESE 400401
+DESCRIPTION:This course investigates methods of economic analysis for dec
+ ision making among alternative courses of action in engineering applicat
+ ions. Topics include: cost-driven design economics\, break-even anlaysis
+ \, money-time relationships\, rates of return\, cost estimation\, deprec
+ iation and taxes\, foreign exchange rates\, life cycle analysis\, benefi
+ t-cost ratios\, risk analysis\, capital financing and allocation\, and f
+ inancial statement analysis. Case studies apply these topics to actual e
+ ngineering problems.
 LOCATION:TBA TBA
 RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20121207;BYDAY=TU
-UID:20120425T073954Z-1335339581989@fe80:0:0:0:200:ff:fe00:0%5
+UID:20120425T052355Z-1335331424626@fe80:0:0:0:213:72ff:fe60:697d%4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20120425T073941Z
-DTSTART:20120906T133000
-DTEND:20120906T150000
-SUMMARY:FNCE100302
-DESCRIPTION:This course provides an introduction to the theory\, the meth
- ods\, and the concerns of corporate finance. The concepts developed in F
- NCE 100 form the foundation for all elective finance courses. The main t
- opics include: 1) the time value of money and capital budgeting techniqu
- es\; 2) uncertainty and the trade-off between risk and return\; 3) secur
- ity market efficiency\; 4) optimal capital structure\, and 5) dividend p
- olicy decisions.
+DTSTAMP:20120425T052344Z
+DTSTART:20120906T150000
+DTEND:20120906T163000
+SUMMARY:ESE 400401
+DESCRIPTION:This course investigates methods of economic analysis for dec
+ ision making among alternative courses of action in engineering applicat
+ ions. Topics include: cost-driven design economics\, break-even anlaysis
+ \, money-time relationships\, rates of return\, cost estimation\, deprec
+ iation and taxes\, foreign exchange rates\, life cycle analysis\, benefi
+ t-cost ratios\, risk analysis\, capital financing and allocation\, and f
+ inancial statement analysis. Case studies apply these topics to actual e
+ ngineering problems.
 LOCATION:TBA TBA
 RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20121207;BYDAY=TH
-UID:20120425T073955Z-1335339581994@fe80:0:0:0:200:ff:fe00:0%5
+UID:20120425T052356Z-1335331424630@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120911T163000
+DTEND:20120911T180000
+SUMMARY:MKSE212001
+DESCRIPTION:What is the "cloud"? How do we build software systems and com
+ ponents that scale to millions of users and petabytes of data\, and are 
+ "always available"? In the modern Internet\, virtually all large Web ser
+ vices run atop multiple geographically distributed data centers: Google\
+ , Yahoo\, Facebook\, iTunes\, Amazon\, eBay\, Bing\, Services must scale
+  across thousands of machines\, tolerate faults\, and support of concurr
+ ent requests. Increasingly\, the major providers (including Amazon\, GoM
+ icrosoft\, HP\, and IBM) are looking at "hosting" third-party applicatio
+ ns in their data centers - forming so-called "cloud computing" services.
+  A significant number of these services also process "streaming" data: g
+ eocoding information from cell phones\, tweets\, streaming video\, etc. 
+ This course\, aimed at a sophomore with exposure to basic programming wi
+ thin the context of a single machine\, focuses on the issues and program
+ ming models related to such cloud and distributed data processing techno
+ logies: data partitioning\, storage schemes\, stream processing\, and "m
+ ostly shared-nothing" parallel algorithms.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20121207;BYDAY=TU
+UID:20120425T052357Z-1335331424635@fe80:0:0:0:213:72ff:fe60:697d%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T052344Z
+DTSTART:20120906T163000
+DTEND:20120906T180000
+SUMMARY:MKSE212001
+DESCRIPTION:What is the "cloud"? How do we build software systems and com
+ ponents that scale to millions of users and petabytes of data\, and are 
+ "always available"? In the modern Internet\, virtually all large Web ser
+ vices run atop multiple geographically distributed data centers: Google\
+ , Yahoo\, Facebook\, iTunes\, Amazon\, eBay\, Bing\, Services must scale
+  across thousands of machines\, tolerate faults\, and support of concurr
+ ent requests. Increasingly\, the major providers (including Amazon\, GoM
+ icrosoft\, HP\, and IBM) are looking at "hosting" third-party applicatio
+ ns in their data centers - forming so-called "cloud computing" services.
+  A significant number of these services also process "streaming" data: g
+ eocoding information from cell phones\, tweets\, streaming video\, etc. 
+ This course\, aimed at a sophomore with exposure to basic programming wi
+ thin the context of a single machine\, focuses on the issues and program
+ ming models related to such cloud and distributed data processing techno
+ logies: data partitioning\, storage schemes\, stream processing\, and "m
+ ostly shared-nothing" parallel algorithms.
+LOCATION:TBA TBA
+RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20121207;BYDAY=TH
+UID:20120425T052358Z-1335331424639@fe80:0:0:0:213:72ff:fe60:697d%4
 END:VEVENT
 END:VCALENDAR
