@@ -1,8 +1,0 @@
---- 
-open_files: 
-<<<<<<< HEAD
-  - app/controllers/courses_controller.rb
-  - app/views/courses/_form.html.erb
-=======
-  - Gemfile
->>>>>>> 6561861c44d9a974bc12f074dd03239b66fb0a66
