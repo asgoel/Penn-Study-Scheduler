@@ -1,14 +1,3 @@
-GIT
-  remote: git://github.com/thoughtbot/paperclip.git
-  revision: 47db66f28bfe28083deb7b95cb5ae0232fd65403
-  specs:
-    paperclip (3.0.2)
-      activemodel (>= 3.0.0)
-      activerecord (>= 3.0.0)
-      activesupport (>= 3.0.0)
-      cocaine (>= 0.0.2)
-      mime-types
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -60,7 +49,6 @@ GEM
       rails (~> 3.2.1)
     childprocess (0.3.2)
       ffi (~> 1.0.6)
-    cocaine (0.2.1)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -171,7 +159,6 @@ DEPENDENCIES
   icalendar
   jquery-rails
   letter_opener
-  paperclip!
   pg
   rails (= 3.2.1)
   sass-rails (~> 3.2.3)

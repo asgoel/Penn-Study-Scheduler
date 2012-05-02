@@ -13,12 +13,9 @@ class User < ActiveRecord::Base
   validates :last_name, :presence => true
   validates :email, :uniqueness => {:case_sensitve => false}
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :first_name, :last_name, :email, :password, :password_confirmation, :remember_me, :schedule
+  attr_accessible :first_name, :last_name, :email, :password, :password_confirmation, :remember_me
   
   def full_name
     "#{first_name} #{last_name}"
   end
-  
-  has_attached_file :schedule,
-    :default_url => 'public/assets/rails.png'
 end

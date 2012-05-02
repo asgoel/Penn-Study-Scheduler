@@ -49,8 +49,7 @@ class UploadsController < ApplicationController
     @user.registrations.each do |r|
       r.destroy
     end
-    @user.update_attributes(:schedule => params[:schedule])
-    cal_file = File.open(@upload.schedule.url(:default, false))
+    cal_file = File.open(params[:schedule].tempfile.path)
     
     cals = Icalendar.parse(cal_file)
     cal = cals.first
