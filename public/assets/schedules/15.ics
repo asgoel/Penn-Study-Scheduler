@@ -1,0 +1,264 @@
+BEGIN:VCALENDAR
+PRODID:1335375426284
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20120425T173706Z
+DTSTART:20120117T150000
+DTEND:20120117T163000
+SUMMARY:BPUB250009
+DESCRIPTION:This course introduces students to "managerial economics\," t
+ he application of microeconomic theory to management problems. Microecon
+ omic theory is a remarkably useful body of ideas for understanding and a
+ nalyzing human behavior in a variety of contexts. Our goal in this cours
+ e is to get you to internalize this body of theory well enough so that y
+ ou can analyze management problems. While this is a "tools course"\, we 
+ will be mindful of applied business problems throughout the course. Afte
+ r presenting the competitive model we will dwell on other market structu
+ res more like those encountered by typical firms (monopoly\, oligopoly\,
+  monopolistic competition). We will spend some time on microeconomic les
+ sons on the development and use of market power\, as well as strategic i
+ nteraction among firms. Finally\, we will spend some time on the theory 
+ of market failure.
+LOCATION:SHDH 213
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20120424;BYDAY=TU
+UID:20120425T173706Z-1335375426287@fe80:0:0:0:213:72ff:fe5e:fa73%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T173706Z
+DTSTART:20120112T150000
+DTEND:20120112T163000
+SUMMARY:BPUB250009
+DESCRIPTION:This course introduces students to "managerial economics\," t
+ he application of microeconomic theory to management problems. Microecon
+ omic theory is a remarkably useful body of ideas for understanding and a
+ nalyzing human behavior in a variety of contexts. Our goal in this cours
+ e is to get you to internalize this body of theory well enough so that y
+ ou can analyze management problems. While this is a "tools course"\, we 
+ will be mindful of applied business problems throughout the course. Afte
+ r presenting the competitive model we will dwell on other market structu
+ res more like those encountered by typical firms (monopoly\, oligopoly\,
+  monopolistic competition). We will spend some time on microeconomic les
+ sons on the development and use of market power\, as well as strategic i
+ nteraction among firms. Finally\, we will spend some time on the theory 
+ of market failure.
+LOCATION:SHDH 213
+RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20120424;BYDAY=TH
+UID:20120425T173707Z-1335375426292@fe80:0:0:0:213:72ff:fe5e:fa73%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T173706Z
+DTSTART:20120113T130000
+DTEND:20120113T140000
+SUMMARY:BPUB250217
+DESCRIPTION:This course introduces students to "managerial economics\," t
+ he application of microeconomic theory to management problems. Microecon
+ omic theory is a remarkably useful body of ideas for understanding and a
+ nalyzing human behavior in a variety of contexts. Our goal in this cours
+ e is to get you to internalize this body of theory well enough so that y
+ ou can analyze management problems. While this is a "tools course"\, we 
+ will be mindful of applied business problems throughout the course. Afte
+ r presenting the competitive model we will dwell on other market structu
+ res more like those encountered by typical firms (monopoly\, oligopoly\,
+  monopolistic competition). We will spend some time on microeconomic les
+ sons on the development and use of market power\, as well as strategic i
+ nteraction among firms. Finally\, we will spend some time on the theory 
+ of market failure.
+LOCATION:JMHH F90
+RRULE:FREQ=WEEKLY;WKST=FR;INTERVAL=1;UNTIL=20120424;BYDAY=FR
+UID:20120425T173708Z-1335375426296@fe80:0:0:0:213:72ff:fe5e:fa73%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T173706Z
+DTSTART:20120117T103000
+DTEND:20120117T120000
+SUMMARY:CIS 121001
+DESCRIPTION:This is an introductory course about Basic Algorithms and Dat
+ a Structures using the Java programming language. We introduce elementar
+ y concepts about the complexity of an algorithm and methods for analyzin
+ g the running time of software. We describe data structures like stacks\
+ , queues\, lists\, trees\, priority queues\, maps\, hash tables and grap
+ hs\, and we discuss how to implement them efficiently and how to use the
+ m in problems-solving software. A larger project introducing students to
+  some of the challenges of software development concludes the course.
+LOCATION:TOWN 100
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20120424;BYDAY=TU
+UID:20120425T173709Z-1335375426301@fe80:0:0:0:213:72ff:fe5e:fa73%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T173706Z
+DTSTART:20120112T103000
+DTEND:20120112T120000
+SUMMARY:CIS 121001
+DESCRIPTION:This is an introductory course about Basic Algorithms and Dat
+ a Structures using the Java programming language. We introduce elementar
+ y concepts about the complexity of an algorithm and methods for analyzin
+ g the running time of software. We describe data structures like stacks\
+ , queues\, lists\, trees\, priority queues\, maps\, hash tables and grap
+ hs\, and we discuss how to implement them efficiently and how to use the
+ m in problems-solving software. A larger project introducing students to
+  some of the challenges of software development concludes the course.
+LOCATION:TOWN 100
+RRULE:FREQ=WEEKLY;WKST=TH;INTERVAL=1;UNTIL=20120424;BYDAY=TH
+UID:20120425T173710Z-1335375426306@fe80:0:0:0:213:72ff:fe5e:fa73%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T173706Z
+DTSTART:20120116T160000
+DTEND:20120116T170000
+SUMMARY:CIS 121206
+DESCRIPTION:This is an introductory course about Basic Algorithms and Dat
+ a Structures using the Java programming language. We introduce elementar
+ y concepts about the complexity of an algorithm and methods for analyzin
+ g the running time of software. We describe data structures like stacks\
+ , queues\, lists\, trees\, priority queues\, maps\, hash tables and grap
+ hs\, and we discuss how to implement them efficiently and how to use the
+ m in problems-solving software. A larger project introducing students to
+  some of the challenges of software development concludes the course.
+LOCATION:MOOR 100A
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20120424;BYDAY=MO
+UID:20120425T173711Z-1335375426310@fe80:0:0:0:213:72ff:fe5e:fa73%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T173706Z
+DTSTART:20120111T133000
+DTEND:20120111T143000
+SUMMARY:CIS 196001
+DESCRIPTION:
+LOCATION:DRLB 3C2
+RRULE:FREQ=WEEKLY;WKST=WE;INTERVAL=1;UNTIL=20120424;BYDAY=WE
+UID:20120425T173712Z-1335375426314@fe80:0:0:0:213:72ff:fe5e:fa73%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T173706Z
+DTSTART:20120116T100000
+DTEND:20120116T110000
+SUMMARY:ESE 170001
+DESCRIPTION:The course provides an introduction to modern logic design an
+ d digital systems. It starts with an overview of the major building bloc
+ ks of a computer. It covers combinational logic including logic gates\, 
+ minimization techniques\, arithmetic circuits and modern logic devices s
+ uch as programmable logic arrays. The next part deals with sequential ci
+ rcuits: flip-flops\, registers memories\, and state machines. Case studi
+ es of real-world applications are used to illustrate the design of seque
+ ntial circuits. The use of hardware description language will be introdu
+ ced. There is a companion lab-based course\, ESE 171\, required for EE/C
+ MPE majors.
+LOCATION:TOWN 100
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20120424;BYDAY=MO
+UID:20120425T173713Z-1335375426319@fe80:0:0:0:213:72ff:fe5e:fa73%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T173706Z
+DTSTART:20120111T100000
+DTEND:20120111T110000
+SUMMARY:ESE 170001
+DESCRIPTION:The course provides an introduction to modern logic design an
+ d digital systems. It starts with an overview of the major building bloc
+ ks of a computer. It covers combinational logic including logic gates\, 
+ minimization techniques\, arithmetic circuits and modern logic devices s
+ uch as programmable logic arrays. The next part deals with sequential ci
+ rcuits: flip-flops\, registers memories\, and state machines. Case studi
+ es of real-world applications are used to illustrate the design of seque
+ ntial circuits. The use of hardware description language will be introdu
+ ced. There is a companion lab-based course\, ESE 171\, required for EE/C
+ MPE majors.
+LOCATION:TOWN 100
+RRULE:FREQ=WEEKLY;WKST=WE;INTERVAL=1;UNTIL=20120424;BYDAY=WE
+UID:20120425T173714Z-1335375426323@fe80:0:0:0:213:72ff:fe5e:fa73%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T173706Z
+DTSTART:20120113T100000
+DTEND:20120113T110000
+SUMMARY:ESE 170001
+DESCRIPTION:The course provides an introduction to modern logic design an
+ d digital systems. It starts with an overview of the major building bloc
+ ks of a computer. It covers combinational logic including logic gates\, 
+ minimization techniques\, arithmetic circuits and modern logic devices s
+ uch as programmable logic arrays. The next part deals with sequential ci
+ rcuits: flip-flops\, registers memories\, and state machines. Case studi
+ es of real-world applications are used to illustrate the design of seque
+ ntial circuits. The use of hardware description language will be introdu
+ ced. There is a companion lab-based course\, ESE 171\, required for EE/C
+ MPE majors.
+LOCATION:TOWN 100
+RRULE:FREQ=WEEKLY;WKST=FR;INTERVAL=1;UNTIL=20120424;BYDAY=FR
+UID:20120425T173715Z-1335375426328@fe80:0:0:0:213:72ff:fe5e:fa73%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T173706Z
+DTSTART:20120116T133000
+DTEND:20120116T150000
+SUMMARY:MGMT101003
+DESCRIPTION:This course addresses contemporary management challenges stem
+ ming from changing organizational structures\, complex environmental con
+ ditions\, new technological developments and increasingly diverse workfo
+ rces. It highlights critical management issues involved in planning\, or
+ ganizing\, controlling and leading an organization. This course will hel
+ p you understand some of the issues involved in both managing and being 
+ managed and equip you to become more effective contributors to organizat
+ ions that you join. The course will cover several topics in management\,
+  organization and strategy. Each topic will span one or two weeks. Topic
+ s include combinations of the following areas: organizational structure\
+ , organizational culture\, strategy\, interorganizational relationships\
+ , job design\, groups\, reward systems\, work force composition\, power 
+ and politics\, social responsibility\, organizational change\, organizat
+ ional decision-making\, business history. The professor will cover an ov
+ erview of the topic with frameworks and examples in the lecture and the 
+ teaching assistant will lead a case discussion that integrates these fra
+ meworks in the recitation.
+LOCATION:SHDH 350
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20120424;BYDAY=MO
+UID:20120425T173716Z-1335375426332@fe80:0:0:0:213:72ff:fe5e:fa73%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T173706Z
+DTSTART:20120117T133000
+DTEND:20120117T150000
+SUMMARY:MGMT101206
+DESCRIPTION:This course addresses contemporary management challenges stem
+ ming from changing organizational structures\, complex environmental con
+ ditions\, new technological developments and increasingly diverse workfo
+ rces. It highlights critical management issues involved in planning\, or
+ ganizing\, controlling and leading an organization. This course will hel
+ p you understand some of the issues involved in both managing and being 
+ managed and equip you to become more effective contributors to organizat
+ ions that you join. The course will cover several topics in management\,
+  organization and strategy. Each topic will span one or two weeks. Topic
+ s include combinations of the following areas: organizational structure\
+ , organizational culture\, strategy\, interorganizational relationships\
+ , job design\, groups\, reward systems\, work force composition\, power 
+ and politics\, social responsibility\, organizational change\, organizat
+ ional decision-making\, business history. The professor will cover an ov
+ erview of the topic with frameworks and examples in the lecture and the 
+ teaching assistant will lead a case discussion that integrates these fra
+ meworks in the recitation.
+LOCATION:JMHH F94
+RRULE:FREQ=WEEKLY;WKST=TU;INTERVAL=1;UNTIL=20120424;BYDAY=TU
+UID:20120425T173717Z-1335375426336@fe80:0:0:0:213:72ff:fe5e:fa73%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T173706Z
+DTSTART:20120116T120000
+DTEND:20120116T133000
+SUMMARY:STAT430003
+DESCRIPTION:Discrete and continuous sample spaces and probability\; rando
+ m variables\, distributions\, independence\; expectation and generating 
+ functions\; Markov chains and recurrence theory.
+LOCATION:JMHH 365
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=1;UNTIL=20120424;BYDAY=MO
+UID:20120425T173718Z-1335375426341@fe80:0:0:0:213:72ff:fe5e:fa73%4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120425T173706Z
+DTSTART:20120111T120000
+DTEND:20120111T133000
+SUMMARY:STAT430003
+DESCRIPTION:Discrete and continuous sample spaces and probability\; rando
+ m variables\, distributions\, independence\; expectation and generating 
+ functions\; Markov chains and recurrence theory.
+LOCATION:JMHH 365
+RRULE:FREQ=WEEKLY;WKST=WE;INTERVAL=1;UNTIL=20120424;BYDAY=WE
+UID:20120425T173719Z-1335375426345@fe80:0:0:0:213:72ff:fe5e:fa73%4
+END:VEVENT
+END:VCALENDAR

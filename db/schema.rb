@@ -65,13 +65,13 @@ ActiveRecord::Schema.define(:version => 20120425102004) do
   add_index "study_sessions", ["course_id"], :name => "index_study_sessions_on_course_id"
 
   create_table "uploads", :force => true do |t|
-    t.integer  "user_id"
-    t.datetime "created_at",            :null => false
-    t.datetime "updated_at",            :null => false
-    t.string   "schedule_file_name"
-    t.string   "schedule_content_type"
-    t.integer  "schedule_file_size"
-    t.datetime "schedule_updated_at"
+    t.integer   "user_id"
+    t.timestamp "created_at",            :null => false
+    t.timestamp "updated_at",            :null => false
+    t.string    "schedule_file_name"
+    t.string    "schedule_content_type"
+    t.integer   "schedule_file_size"
+    t.timestamp "schedule_updated_at"
   end
 
   create_table "users", :force => true do |t|
@@ -93,7 +93,7 @@ ActiveRecord::Schema.define(:version => 20120425102004) do
     t.string    "schedule_file_name"
     t.string    "schedule_content_type"
     t.integer   "schedule_file_size"
-    t.datetime  "schedule_updated_at"
+    t.timestamp "schedule_updated_at"
   end
 
   add_index "users", ["confirmation_token"], :name => "index_users_on_confirmation_token", :unique => true

@@ -1,4 +1,6 @@
-<%= form_for [:course, @study_session] do |f| %>
+<% if user_signed_in? %>
+
+<%= form_for [@course, @study_session] do |f| %>
   <% if @study_session.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@study_session.errors.count, "error") %> prohibited this study_session from being saved:</h2>
@@ -12,7 +14,7 @@
   <% end %>
 
   <div class="field">
-    <%= f.hidden_field :course_id, :value => @study_session.course_id %>
+    <%= f.hidden_field :course_id, :value => @course.id %>
   </div>
   <div class="field">
     <%= f.label :date %>
@@ -29,4 +31,5 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+<% end %>
 <% end %>

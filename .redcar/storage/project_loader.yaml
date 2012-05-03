@@ -1,0 +1,5 @@
+--- 
+open_files: 
+  - app/controllers/invitations_controller.rb
+  - app/views/invitations/index.html.erb
+  - app/views/invitations/show.html.erb

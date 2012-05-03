@@ -1,8 +1,6 @@
-<p id="notice"><%= notice %></p>
-
 <p>
   <b>Course:</b>
-  <%= @study_session.course %>
+  <%= @study_session.course.abbrev %>
 </p>
 
 <p>
@@ -20,6 +18,15 @@
   <%= @study_session.location %>
 </p>
 
+<p>
+  <b>People Invited:</b>
+  <% @study_session.users.each do |user| %>
+  <% name = user.first_name + " " + user.last_name %>
+  <br><%= name %>
+  <% end %>
+</p>
 
-<%= link_to 'Edit', edit_study_session_path(@study_session) %> |
-<%= link_to 'Back', study_sessions_path %>
+<%= link_to 'Invite People to this Event', new_course_study_session_invitation_path(@study_session.course, @study_session) %>
+<br>
+<%= link_to 'Edit', edit_course_study_session_path(@study_session) %> |
+<%= link_to 'Back', course_study_sessions_path %>
