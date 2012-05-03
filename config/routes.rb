@@ -1,6 +1,4 @@
 PennStudyScheduler::Application.routes.draw do
-  resources :invitations
-
   resources :uploads
   resources :registrations do
     post 'registrations' => 'registrations#upload'
@@ -8,7 +6,9 @@ PennStudyScheduler::Application.routes.draw do
   get "home/index"
   root :to => 'home#index'
   resources :courses do
-    resources :study_sessions
+    resources :study_sessions do
+      resources :invitations
+    end
   end
   devise_for :users
 

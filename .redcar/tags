@@ -1,0 +1,20 @@
+1336013166
+Course	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/course.rb	class Course 
+InvitationsController	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/invitations_controller.rb	class InvitationsController 
+StudySessionsController	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/study_sessions_controller.rb	class StudySessionsController 
+abbrev	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/course.rb	  def abbrev
+create	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/study_sessions_controller.rb	  def create
+create	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/invitations_controller.rb	  def create
+destroy	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/study_sessions_controller.rb	  def destroy
+destroy	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/invitations_controller.rb	  def destroy
+edit	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/study_sessions_controller.rb	  def edit
+edit	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/invitations_controller.rb	  def edit
+full_name	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/models/course.rb	  def full_name
+index	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/study_sessions_controller.rb	  def index
+index	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/invitations_controller.rb	  def index
+new	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/study_sessions_controller.rb	  def new
+new	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/invitations_controller.rb	  def new
+show	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/study_sessions_controller.rb	  def show
+show	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/invitations_controller.rb	  def show
+update	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/study_sessions_controller.rb	  def update
+update	/Users/Ashu/Documents/Ashu/Penn Frosh/ror/Penn-Study-Scheduler/app/controllers/invitations_controller.rb	  def update

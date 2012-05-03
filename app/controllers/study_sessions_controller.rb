@@ -24,7 +24,9 @@ class StudySessionsController < ApplicationController
   # GET /study_sessions/new
   # GET /study_sessions/new.json
   def new
+    @course = Course.find(params[:course_id])
     @study_session = StudySession.new
+    # @study_session.update_attributes(:course_id => @course.id)
 
     respond_to do |format|
       format.html # new.html.erb
@@ -40,12 +42,18 @@ class StudySessionsController < ApplicationController
   # POST /study_sessions
   # POST /study_sessions.json
   def create
+    @course = Course.find(params[:course_id])
     @study_session = StudySession.new(params[:study_session])
+    @study_session.update_attributes(:course_id => @course.id)
+    
+    @invitation = Invitation.new({:user_id => current_user.id, 
+      :study_session_id => @study_session.id})
+    @invitation.save
 
     respond_to do |format|
       if @study_session.save
-        format.html { redirect_to '/registrations', notice: 'Study session was successfully created.' }
-        format.json { render json: '/registrations', status: :created, location: @study_session }
+        format.html { redirect_to [@study_session.course, @study_session], notice: 'Study session was successfully created.' }
+        format.json { render json: @study_session.id, status: :created, location: @study_session }
       else
         format.html { render action: "new" }
         format.json { render json: @study_session.errors, status: :unprocessable_entity }
@@ -56,11 +64,11 @@ class StudySessionsController < ApplicationController
   # PUT /study_sessions/1
   # PUT /study_sessions/1.json
   def update
-    @study_session = StudySession.find(params[:id])
+    @study_session = StudySession.find(params[:study_session])
 
     respond_to do |format|
       if @study_session.update_attributes(params[:study_session])
-        format.html { redirect_to @study_session, notice: 'Study session was successfully updated.' }
+        format.html { redirect_to [@study_session.course, @study_session], notice: 'Study session was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }

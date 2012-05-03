@@ -3,16 +3,14 @@
 <table>
   <tr>
     <th>Course</th>
-    <th></th>
     <th>Options</th>
     <th></th>
   </tr>
 
-<% @registrations.sort_by {|r| r.course.full_name }.each do |registration| %>
+<% @registrations.sort_by {|r| r.course.abbrev }.each do |registration| %>
 <tr>
-    <td><%= registration.course.full_name %></td>
+    <td><%= registration.course.abbrev %></td>
     <td><%= link_to 'Study', new_course_study_session_path(registration.course) %></td>
-    <td><%= link_to 'Edit', edit_registration_path(registration) %></td>
     <td><%= link_to 'Destroy', registration, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
 <% end %>

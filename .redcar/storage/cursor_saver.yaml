@@ -1,0 +1,89 @@
+--- 
+cursor_positions: 
+  - :path: app/views/study_sessions/new.html.erb
+    :cursor_offset: 26
+    :timestamp: 2012-05-02 17:28:41 -04:00
+  - :path: app/models/study_session.rb
+    :cursor_offset: 133
+    :timestamp: 2012-05-02 17:24:12 -04:00
+  - :path: app/views/home/index.html.erb
+    :cursor_offset: 483
+    :timestamp: 2012-05-02 17:50:16 -04:00
+  - :path: db/migrate/20120425102004_create_invitations.rb
+    :cursor_offset: 0
+    :timestamp: 2012-04-25 06:35:17 -04:00
+  - :path: app/views/registrations/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-03-08 17:46:02 -05:00
+  - :path: app/views/registrations/show.html.erb
+    :cursor_offset: 130
+    :timestamp: 2012-05-02 19:05:32 -04:00
+  - :path: app/views/invitations/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-04-25 06:20:04 -04:00
+  - :path: app/controllers/registrations_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-04-25 05:08:38 -04:00
+  - :path: config/routes.rb
+    :cursor_offset: 49
+    :timestamp: 2012-05-02 19:19:30 -04:00
+  - :path: app/views/courses/index.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-04-20 22:54:42 -04:00
+  - :path: app/views/registrations/index.html.erb
+    :cursor_offset: 345
+    :timestamp: 2012-05-02 19:05:48 -04:00
+  - :path: app/views/courses/_form.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-04-21 00:33:40 -04:00
+  - :path: app/views/study_sessions/_form.html.erb
+    :cursor_offset: 498
+    :timestamp: 2012-05-02 17:58:34 -04:00
+  - :path: app/views/invitations/new.html.erb
+    :cursor_offset: 104
+    :timestamp: 2012-05-02 19:26:09 -04:00
+  - :path: app/models/course.rb
+    :cursor_offset: 132
+    :timestamp: 2012-05-02 19:24:56 -04:00
+  - :path: app/views/registrations/_form.html.erb
+    :cursor_offset: 458
+    :timestamp: 2012-04-20 23:19:35 -04:00
+    :selection_offset: 557
+    :block_selection_mode: false
+  - :path: app/models/user.rb
+    :cursor_offset: 0
+    :timestamp: 2012-05-02 17:17:57 -04:00
+  - :path: app/models/invitation.rb
+    :cursor_offset: 0
+    :timestamp: 2012-04-25 06:20:43 -04:00
+  - :path: app/views/invitations/_form.html.erb
+    :cursor_offset: 437
+    :timestamp: 2012-05-02 19:39:13 -04:00
+  - :path: app/views/courses/show.html.erb
+    :cursor_offset: 64
+    :timestamp: 2012-04-20 23:14:44 -04:00
+    :selection_offset: 183
+    :block_selection_mode: false
+  - :path: app/views/study_sessions/show.html.erb
+    :cursor_offset: 520
+    :timestamp: 2012-05-02 19:23:17 -04:00
+    :selection_offset: 441
+    :block_selection_mode: false
+  - :path: app/controllers/study_sessions_controller.rb
+    :cursor_offset: 1161
+    :timestamp: 2012-05-02 19:06:57 -04:00
+    :selection_offset: 1219
+    :block_selection_mode: false
+  - :path: app/views/study_sessions/index.html.erb
+    :cursor_offset: 299
+    :timestamp: 2012-05-02 18:01:03 -04:00
+  - :path: app/controllers/invitations_controller.rb
+    :cursor_offset: 1400
+    :timestamp: 2012-05-02 20:03:00 -04:00
+  - :path: app/views/invitations/index.html.erb
+    :cursor_offset: 329
+    :timestamp: 2012-05-02 19:58:19 -04:00
+  - :path: app/views/invitations/show.html.erb
+    :cursor_offset: 137
+    :timestamp: 2012-05-02 19:57:47 -04:00
+files_to_retain: 0

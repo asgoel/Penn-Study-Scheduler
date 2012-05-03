@@ -10,9 +10,9 @@
     <th></th>
     <th></th>
   </tr>
-<% StudySession.all.each do |study_session| %>
+<% current_user.study_sessions.each do |study_session| %>
   <tr>
-    <td><%= study_session.course %></td>
+    <td><%= link_to study_session.course.abbrev, course_path(study_session.course) %></td>
     <td><%= study_session.date %></td>
     <td><%= study_session.time %></td>
     <td><%= study_session.location %></td>
