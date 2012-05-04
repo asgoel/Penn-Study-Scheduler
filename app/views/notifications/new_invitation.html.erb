@@ -1,6 +1,7 @@
 <%= @invitation.user.first_name %>, you've been invited to study for
 <%= @invitation.study_session.course.abbrev%> with some friends.
-<br><%= link_to "View your invitation", invitation_url(@invitation)%> to accept it. 
+<br><%= link_to "View your study session",course_study_session_url(@invitation.study_session)%> to accept it.
+<br>
 
-Best,
+Best,<br>
 The PennStudyScheduler Team

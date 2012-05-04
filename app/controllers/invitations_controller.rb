@@ -1,4 +1,5 @@
 class InvitationsController < ApplicationController
+  
   # GET /invitations
   # GET /invitations.json
   def index
@@ -24,6 +25,8 @@ class InvitationsController < ApplicationController
   # GET /invitations/new
   # GET /invitations/new.json
   def new
+    @course = Course.find(params[:course_id])
+    @study_session = StudySession.find(params[:study_session_id])
     @invitation = Invitation.new
 
     respond_to do |format|
@@ -40,12 +43,23 @@ class InvitationsController < ApplicationController
   # POST /invitations
   # POST /invitations.json
   def create
+    @course = Course.find(params[:course_id])
+    @study_session = StudySession.find(params[:study_session_id])
+    
     @invitation = Invitation.new(params[:invitation])
-
+    @invitation.update_attributes(:study_session_id => @study_session.id)
+    
+    @u = User.find(params[:invitation][:user_id])
+    alreadyThere = @study_session.users.find(@u).nil?
+    
     respond_to do |format|
-      if @invitation.save
-        format.html { redirect_to @invitation, notice: 'Invitation was successfully created.' }
-        format.json { render json: @invitation, status: :created, location: @invitation }
+      if alreadyThere
+        format.html { redirect_to new_course_study_session_invitation_path(@study_session.course, @study_session), notice: 'This person was already invited to the study session' }
+        format.json { render json: "This person was already invited to the study session", status: :unprocessable_entity }
+      elsif @invitation.save
+	    Notifications.new_invitation(@invitation).deliver
+        format.html { redirect_to [@invitation.study_session.course, @invitation.study_session], notice: 'Invitation was successfully created.' }
+        format.json { render json: @invitation.id, status: :created, location: @invitation }
       else
         format.html { render action: "new" }
         format.json { render json: @invitation.errors, status: :unprocessable_entity }

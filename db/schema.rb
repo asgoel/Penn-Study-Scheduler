@@ -34,10 +34,10 @@ ActiveRecord::Schema.define(:version => 20120425102004) do
   add_index "events", ["course_id"], :name => "index_events_on_course_id"
 
   create_table "invitations", :force => true do |t|
-    t.integer  "user_id"
-    t.integer  "study_session_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.integer   "user_id"
+    t.integer   "study_session_id"
+    t.timestamp "created_at",       :null => false
+    t.timestamp "updated_at",       :null => false
   end
 
   add_index "invitations", ["study_session_id"], :name => "index_invitations_on_study_session_id"
@@ -54,12 +54,12 @@ ActiveRecord::Schema.define(:version => 20120425102004) do
   add_index "registrations", ["user_id"], :name => "index_registrations_on_user_id"
 
   create_table "study_sessions", :force => true do |t|
-    t.integer  "course_id"
-    t.date     "date"
-    t.time     "time"
-    t.string   "location"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer   "course_id"
+    t.date      "date"
+    t.time      "time"
+    t.string    "location"
+    t.timestamp "created_at", :null => false
+    t.timestamp "updated_at", :null => false
   end
 
   add_index "study_sessions", ["course_id"], :name => "index_study_sessions_on_course_id"
