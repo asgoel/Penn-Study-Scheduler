@@ -1,10 +1,10 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  department: MyString
-  number: 1
-  section: MyString
-  description: MyString
+  department: 'CIS'
+  number: 121
+  section: '001'
+  description: 'Introduction to Data Structures and Algorithms'
 
 two:
   department: MyString

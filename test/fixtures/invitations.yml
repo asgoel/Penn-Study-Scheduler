@@ -2,8 +2,8 @@
 
 one:
   user: 
-  studysession: 
+  study_session_id: 
 
 two:
   user: 
-  studysession: 
+  study_session_id: 

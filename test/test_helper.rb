@@ -25,12 +25,20 @@ class ActionDispatch::IntegrationTest
 
   # Stop ActiveRecord from wrapping tests in transactions
   self.use_transactional_fixtures = false
-  
+  def login
+    User.create(first_name: 'Sam', last_name: 'Smith', email: 'agoel981@gmail.com', password: 'test1234')
+	visit new_user_session_path
+	fill_in 'Email', with: 'agoel981@gmail.com'
+	fill_in 'Password', with: 'test1234'
+	click_button 'Sign in'
+  end
+
   setup do
     DatabaseCleaner.start
     Capybara.current_driver = :selenium
     page.driver.options[:resynchronize] = true
 	Capybara.app_host = 'localhost:3000'
+	login
   end
   teardown do
     DatabaseCleaner.clean # Truncate the database
