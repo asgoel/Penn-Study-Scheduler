@@ -52,12 +52,10 @@ class InvitationsController < ApplicationController
     alreadyThere = !@study_session.users.find(@u).nil?
     
     respond_to do |format|
-      if alreadyThere
-        format.html { redirect_to new_course_study_session_invitation_path(@study_session.course, @study_session), notice: 'This person was already invited to the study session' }
-        format.json { render json: "This person was already invited to the study session", status: :unprocessable_entity }
-      elsif @invitation.save
-        format.html { redirect_to [@invitation.study_session.course, @invitation.study_session], notice: 'Invitation was successfully created.' }
-        format.json { render json: @invitation.id, status: :created, location: @invitation }
+      if @invitation.save
+        Notifications.new_invitation(@invitation).deliver
+        format.html { redirect_to @invitation, notice: 'Invitation was successfully created.' }
+        format.json { render json: @invitation, status: :created, location: @invitation }
       else
         format.html { render action: "new" }
         format.json { render json: @invitation.errors, status: :unprocessable_entity }

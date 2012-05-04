@@ -6,9 +6,10 @@ class Notifications < ActionMailer::Base
   #
   #   en.notifications.new_calendar.subject
   #
-  def new_registration(registration)
-    @greeting = "Your New Class"
-    @registration = registration
-    mail to: registration.user.email
+  def new_invitation(invitation)
+    @greeting = "You've Been Invited to a Study Session!"
+    @invitation = invitation
+    mail to: invitation.user.email
   end
 end
+
